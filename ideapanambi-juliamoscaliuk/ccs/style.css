@@ -13,4 +13,18 @@ header{
 
 h1{
     color: aliceblue;
+    text-align: center;
 }
+
+#mariposa-panambi{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 20em;
+    height: 15em;
+    position: relative;
+    }
+
+    nav ul li{
+        display: inline-flex;
+         
+    }
