@@ -1,54 +1,85 @@
-*{
+* {
     margin: 0;
-	padding: 0;
+    padding: 0;
     box-sizing: border-box;
-	/*list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*list-style: none;
 	text-decoration: none;
 	border: none;
 	outline: none;*/
 }
 
-header{
-    background-color: #3f2050;
+header {
+    background-color: #b944e7;
 }
 
-h1{
+h1 {
     color: aliceblue;
     text-align: center;
 }
 
-a{
+nav ul li {
+    display: inline-block;
+}
+
+a {
     color: rgb(2, 2, 2);
 }
-a:hover{
+
+a:hover {
     color: coral;
 }
 
-#mariposa-panambi{
+#mariposa-panambi {
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     width: 12em;
     height: 8em;
     position: relative;
-    }
+}
 
-.propiedadDestacada{
+.propiedadDestacada {
     border-color: black;
     border-style: dotted;
     margin: 50px;
     padding: 10px;
-    
+    background-color: rgb(204, 155, 204);
 }
-.propiedadAlquiler{
+
+.propiedadDestacada p {
+    text-justify: auto;
+}
+
+.propiedadAlquiler {
     border-bottom: #1f082c;
     border-style: double;
     margin: 50px;
+    background-color: rgb(204, 155, 204);
 }
 
-
-.propiedadVenta{
+.propiedadVenta {
     border-bottom: #1f082c;
     border-style: double;
     margin: 50px;
+    background-color: rgb(204, 155, 204);
 }
-    
+
+.imagenAlquiler {
+    height: 200px
+}
+
+
+.imagenVenta {
+    height: 200px
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+    padding: 10px;
+}
+
+footer {
+    height: 4rem;
+    background-color: #b944e7
+}
