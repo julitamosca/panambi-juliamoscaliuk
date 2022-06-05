@@ -52,10 +52,6 @@ a:hover {
     background-color: rgb(204, 155, 204);
 }
 
-.propiedadDestacada p {
-    text-justify: auto;
-}
-
 .propiedadAlquiler {
     border-bottom: #1f082c;
     border-style: double;
@@ -87,5 +83,8 @@ img {
 
 footer {
     height: 4rem;
-    background-color: #b944e7
+    background-color: #b944e7;
+    text-align: center;
+    padding: 0 4px;
 }
+
