@@ -12,10 +12,10 @@
 
 <BODY>
     <header>
-        <h1>INOMBILIARIA PANAMBÍ</h1>
+        <h1>INMOBILIARIA PANAMBÍ</h1>
         <img src="./assets/imag/mariposapanambi-removebg.png" alt="mariposa-panambi" class="logo-panambi"
             id="mariposa-panambi">
-        <nav>
+        <nav class="busqueda">
             <ul>
                 <li><a href="./pages/listapropiedades.html">ALQUILERES</a></li>
                 <li><a href="./pages/listapropiedades.html">VENTAS</a></li>
@@ -29,9 +29,9 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="propiedadDestacada">
             <h2>PROPIEDAD DESTACADA DE LA SEMANA</h2>
-            <h3>Casa en Barrio Sur - Cod. 11223344<a href="./pages/ejemplodepropiedad.html"></a></h3>
+            <h3><a href="./pages/ejemplodepropiedad.html">Casa en Barrio Sur - Cod. 11223344</a></h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/km8YSiE8JJw"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -41,35 +41,33 @@
                 voluptatem reprehenderit quod eius amet in optio neque! Praesentium.</p>
         </section>
 
-        <section>
-            <h2>PROPIEDADES EN ALQUILER</h2>
+        <section class="propiedadAlquiler">
+            <h2><a href="./pages/listapropiedades.html">PROPIEDADES EN ALQUILER</a></h2>
             <div>
                 <h3>¿Buscando alquilar? Llegaste al lugar indicado</h3>
             </div>
-            <img src="./assets/imag/apartment2.jpg" alt="Apartamento">
-            <img src="./assets/imag/bathroom.jpg" alt="Baño">
-            <img src="./assets/imag/garden.jpg" alt="Jardín">
-            <div>
-                <a href="./pages/listapropiedades.html">Propiedades en alquiler</a>
+            
+            <div class=imagenAlquiler>
+                <img src="./assets/imag/apartment2.jpg" alt="Apartamento">
+                <img src="./assets/imag/bathroom.jpg" alt="Baño">
+                <img src="./assets/imag/garden.jpg" alt="Jardín">
             </div>
-            <!--Preferiria que esto sea un boton y no un link, ver como cambiarlo-->
+            
         </section>
 
-        <section>
-            <h2>PROPIEDADES EN VENTA</h2>
+        <section class="propiedadVenta">
+            <h2><a href="./pages/listapropiedades.html">PROPIEDADES EN VENTA</a></h2>
             <div>
                 <h3>La propiedad de tus sueños te está esperando</h3>
             </div>
-            <img src="./assets/imag/apartment2.jpg" alt="Apartamento">
-            <img src="./assets/imag/bedroomkids.jpg" alt="Habitación de niños">
-            <img src="./assets/imag/house2.jpg" alt="Casa">
-            <div>
-                <a href="./pages/listapropiedades.html">Propiedades en venta</a>
+            
+            <div class=imagenVenta>
+                <img src="./assets/imag/apartment2.jpg" alt="Apartamento">
+                <img src="./assets/imag/bedroomkids.jpg" alt="Habitación de niños">
+                <img src="./assets/imag/house2.jpg" alt="Casa">
             </div>
-            <!--Preferiria que esto sea un boton y no un link, ver como cambiarlo. Manda a la lista de propiedades, aunque después tendría su propia lista-->
-
+            
         </section>
-
     </main>
 
     <footer>

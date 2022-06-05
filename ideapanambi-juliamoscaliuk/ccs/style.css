@@ -1,14 +1,15 @@
-*/*{
+*{
     margin: 0;
 	padding: 0;
-	list-style: none;
+    box-sizing: border-box;
+	/*list-style: none;
 	text-decoration: none;
 	border: none;
-	outline: none;
+	outline: none;*/
 }
 
 header{
-    background-color: #AA6DCD;
+    background-color: #3f2050;
 }
 
 h1{
@@ -16,15 +17,38 @@ h1{
     text-align: center;
 }
 
+a{
+    color: rgb(2, 2, 2);
+}
+a:hover{
+    color: coral;
+}
+
 #mariposa-panambi{
     filter: brightness(1.1);
     mix-blend-mode: multiply;
-    width: 20em;
-    height: 15em;
+    width: 12em;
+    height: 8em;
     position: relative;
     }
 
-    nav ul li{
-        display: inline-flex; 
-    }
-    /*
+.propiedadDestacada{
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    
+}
+.propiedadAlquiler{
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+}
+
+
+.propiedadVenta{
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+}
+    
