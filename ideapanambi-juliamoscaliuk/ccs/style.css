@@ -67,12 +67,18 @@ a:hover {
 }
 
 .imagenAlquiler {
-    height: 200px
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 200px;
 }
 
 
 .imagenVenta {
-    height: 200px
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 200px;
 }
 
 img {
