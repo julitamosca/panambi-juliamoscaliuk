@@ -143,6 +143,23 @@ aside h3 {
     font-weight: bold;
 }
 
+.listaDePropiedades__img{
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.listaDePropiedades__img img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+    line-height: 1%;
+    padding: 3%;
+}
 
 footer {
     height: 4rem;
