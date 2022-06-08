@@ -161,11 +161,44 @@ aside h3 {
     padding: 3%;
 }
 
+.casaEnAlquiler{
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.casaEnAlquiler p{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.propiedad__img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 30vh;
+    line-height: 1%;
+    padding: 3%;
+}
+
+.casaEnAlquiler__tabla{
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
 footer {
-    height: 4rem;
+    height: 8rem;
     background-color: #b944e7;
     text-align: center;
-    padding: 0 4px;
+    padding: 2px;
 }
 
 
