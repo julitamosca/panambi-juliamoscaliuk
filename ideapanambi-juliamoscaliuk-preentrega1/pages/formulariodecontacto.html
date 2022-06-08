@@ -14,8 +14,8 @@
     <header>
         <nav>
             <h1><a href="../index.html">INOMBILIARIA PANAMBÍ</a></h1>
-            <a href="../index.html"><img src="../assets/imag/mariposapanambi-removebg.png" alt="mariposa-panambi" class="logo-panambi"
-            id="mariposa-panambi"></a>
+            <a href="../index.html"><img src="../assets/imag/mariposapanambi-removebg.png" alt="mariposa-panambi"
+                    class="logo-panambi" id="mariposa-panambi"></a>
             <ul>
                 <li><a href="listapropiedades.html">ALQUILERES</a></li>
                 <li><a href="listapropiedades.html">VENTAS</a></li>
@@ -32,43 +32,37 @@
             <h1>¡DEJÁ TU CONSULTA!</h1>
             <H2>Alguien de nuestro equipo se contactará a la brevedad para aclarar todas tus dudas</H2>
 
-            <form>
-                <div>
-                    <label for="campo-nombre">Nombre</label>
-                    <input type="text" placeholder="Julia Moscaliuk" id="campo-nombre" required>
-                </div>
+            <div class="contacto">
+                <form>
+                    <div>
+                        <label for="campo-nombre">Nombre</label>
+                        <input type="text" placeholder="Julia Moscaliuk" id="campo-nombre" required>
+                    </div>
+                    <div>
+                        <label for="campo-tel">Teléfono</label>
+                        <input type="tel" placeholder="099 999 999" id="campo-tel" required>
+                    </div>
+                    <div>
+                        <label for="campo-email">Email</label>
+                        <input type="email" placeholder="julia@moscaliuk.com" id="campo-email" required>
+                    </div>
+                    <div>
+                        <label for="tipo-de-propiedad">Tipo de propiedad</label>
+                        <select name="tipo-de-propiedad" id="Tipo de propiedad">
+                            <option value="Alquiler">Alquiler</option>
+                            <option value="Compra">Compra</option>
+                            <option value="Venta">Venta</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ingresa-consulta">Ingresá tu consulta</label>
+                        <textarea name="ingresa-consulta" id="ingresa-consulta" cols="30" rows="10"></textarea>
 
-                <div>
-                    <label for="campo-tel">Teléfono</label>
-                    <input type="tel" placeholder="099 999 999" id="campo-tel" required>
-                </div>
-
-                <div>
-                    <label for="campo-email">Email</label>
-                    <input type="email" placeholder="julia@moscaliuk.com" id="campo-email" required>
-                </div>
-
-                <div>
-                    <label for="tipo-de-propiedad">Tipo de propiedad</label>
-                    <select name="tipo-de-propiedad" id="Tipo de propiedad">
-                        <option value="Alquiler">Alquiler</option>
-                        <option value="Compra">Compra</option>
-                        <option value="Venta">Venta</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label for="ingresa-consulta">Ingresá tu consulta</label>
-                    <textarea name="ingresa-consulta" id="ingresa-consulta" cols="30" rows="10"></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Enviar mensaje">
-                    <input type="reset" value="Borrar formulario">
-                </div>
-
-            </form>
-
+                        <input type="submit" value="Enviar mensaje">
+                        <input type="reset" value="Borrar formulario">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 
@@ -88,7 +82,7 @@
                 <path
                     d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
             </svg>Mail</a>
-            <p>Created by Julia Moscaliuk © 2022</p>
+        <p>Created by Julia Moscaliuk © 2022</p>
     </footer>
 </body>
 

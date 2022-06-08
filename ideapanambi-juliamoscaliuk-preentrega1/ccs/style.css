@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*list-style: none;
@@ -12,7 +12,7 @@
 header {
     background-color: #b944e7;
     border-style: dashed;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
     font-weight: bold;
 }
@@ -61,7 +61,7 @@ background-size: cover;
     overflow: hidden;
 }
 
-.propiedadDestacada p{
+.propiedadDestacada p {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
@@ -105,9 +105,10 @@ img {
     max-height: 100%;
     padding: 10px;
 }
+
 /* Ver de sacar las propiedades de arriba que son lo que hacen que las imagenes se me superpongan */
 
-.conocenos{
+.conocenos {
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -121,7 +122,7 @@ img {
     color: #1f082c;
 }
 
-.conocenos__imagenes  {
+.conocenos__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -143,7 +144,7 @@ aside h3 {
     font-weight: bold;
 }
 
-.listaDePropiedades__img{
+.listaDePropiedades__img {
     border-bottom: #1f082c;
     border-style: double;
     margin: 50px;
@@ -152,7 +153,7 @@ aside h3 {
     overflow: hidden;
 }
 
-.listaDePropiedades__img img{
+.listaDePropiedades__img img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -161,7 +162,7 @@ aside h3 {
     padding: 3%;
 }
 
-.casaEnAlquiler{
+.casaEnAlquiler {
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -170,13 +171,13 @@ aside h3 {
     overflow: hidden;
 }
 
-.casaEnAlquiler p{
+.casaEnAlquiler p {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
 }
 
-.propiedad__img{
+.propiedad__img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -185,7 +186,7 @@ aside h3 {
     padding: 3%;
 }
 
-.casaEnAlquiler__tabla{
+.casaEnAlquiler__tabla {
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -194,11 +195,14 @@ aside h3 {
     overflow: hidden;
 }
 
+form{
+    display: block;
+    border-color: #1f082c;
+}
+
 footer {
     height: 8rem;
     background-color: #b944e7;
     text-align: center;
     padding: 2px;
 }
-
-
