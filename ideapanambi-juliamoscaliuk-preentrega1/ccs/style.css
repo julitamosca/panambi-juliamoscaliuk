@@ -53,6 +53,7 @@ a:hover {
     margin: 50px;
     padding: 10px;
     background-color: rgb(204, 155, 204);
+    overflow: hidden;
 }
 
 .propiedadDestacada p{
@@ -66,6 +67,7 @@ a:hover {
     border-style: double;
     margin: 50px;
     background-color: rgb(204, 155, 204);
+    overflow: hidden;
 }
 
 .propiedadVenta {
@@ -73,6 +75,7 @@ a:hover {
     border-style: double;
     margin: 50px;
     background-color: rgb(204, 155, 204);
+    overflow: hidden;
 }
 
 .propiedadAlquiler__imagenes {
@@ -95,10 +98,11 @@ img {
     max-height: 100%;
     padding: 10px;
 }
-
+/* Ver de sacar las propiedades de arriba que son lo que hacen que las imagenes se me superpongan */
 footer {
     height: 4rem;
     background-color: #b944e7;
     text-align: center;
     padding: 0 4px;
 }
+
