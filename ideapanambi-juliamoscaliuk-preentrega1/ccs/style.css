@@ -52,6 +52,12 @@ a:hover {
     background-color: rgb(204, 155, 204);
 }
 
+.propiedadDestacada p{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
 .propiedadAlquiler {
     border-bottom: #1f082c;
     border-style: double;
@@ -67,12 +73,18 @@ a:hover {
 }
 
 .imagenAlquiler {
-    height: 200px
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
 }
 
 
 .imagenVenta {
-    height: 200px
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
 }
 
 img {
