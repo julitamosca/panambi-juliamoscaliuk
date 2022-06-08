@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*list-style: none;
@@ -12,6 +12,9 @@
 header {
     background-color: #b944e7;
     border-style: dashed;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
 }
 
 h1 {
@@ -72,7 +75,7 @@ a:hover {
     background-color: rgb(204, 155, 204);
 }
 
-.imagenAlquiler {
+.propiedadAlquiler__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -80,7 +83,7 @@ a:hover {
 }
 
 
-.imagenVenta {
+.propiedadVenta__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
