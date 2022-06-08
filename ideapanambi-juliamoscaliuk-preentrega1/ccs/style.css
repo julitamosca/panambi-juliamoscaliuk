@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;*/
+}
+
+header {
+    background-color: #b944e7;
+    border-style: dashed;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+a {
+    color: rgb(2, 2, 2);
+}
+
+a:hover {
+    color: coral;
+}
+
+#mariposa-panambi {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 12em;
+    height: 8em;
+    position: relative;
+}
+
+.propiedadDestacada {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+}
+
+.propiedadAlquiler {
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    background-color: rgb(204, 155, 204);
+}
+
+.propiedadVenta {
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    background-color: rgb(204, 155, 204);
+}
+
+.imagenAlquiler {
+    height: 200px
+}
+
+
+.imagenVenta {
+    height: 200px
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+    padding: 10px;
+}
+
+footer {
+    height: 4rem;
+    background-color: #b944e7;
+    text-align: center;
+    padding: 0 4px;
+}
