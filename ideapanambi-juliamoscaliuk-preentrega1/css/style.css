@@ -136,6 +136,7 @@ aside {
     padding: 10px;
     background-color: rgb(114, 23, 114);
     overflow: hidden;
+    position: relative;
 }
 
 aside h3 {
@@ -193,11 +194,6 @@ aside h3 {
     padding: 10px;
     background-color: rgb(204, 155, 204);
     overflow: hidden;
-}
-
-form{
-    display: block;
-    border-color: #1f082c;
 }
 
 footer {
