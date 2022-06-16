@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;*/
+}
+
+header {
+    background-color: #b944e7;
+    border-style: dashed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    /* padding: 0 4px; */
+}
+
+a {
+    color: rgb(2, 2, 2);
+}
+
+a:hover {
+    color: coral;
+}
+
+#mariposa-panambi {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 12em;
+    height: 8em;
+    position: relative;
+}
+
+/* body{
+background-image: url(../assets/imag/vista-mvd.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+} */
+
+.propiedadDestacada {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.propiedadDestacada p {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.propiedadAlquiler {
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.propiedadVenta {
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.propiedadAlquiler__imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+
+.propiedadVenta__imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+    padding: 10px;
+}
+
+/* Ver de sacar las propiedades de arriba que son lo que hacen que las imagenes se me superpongan */
+
+.conocenos {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.conocenos h2 {
+    text-align: center;
+    color: #1f082c;
+}
+
+.conocenos__imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+aside {
+    border-color: rgb(250, 249, 249);
+    border-style: double;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(114, 23, 114);
+    overflow: hidden;
+    position: relative;
+}
+
+aside h3 {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.listaDePropiedades__img {
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.listaDePropiedades__img img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+    line-height: 1%;
+    padding: 3%;
+}
+
+.casaEnAlquiler {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.casaEnAlquiler p {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.propiedad__img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 30vh;
+    line-height: 1%;
+    padding: 3%;
+}
+
+.casaEnAlquiler__tabla {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+footer {
+    height: 8rem;
+    background-color: #b944e7;
+    text-align: center;
+    padding: 2px;
+}
