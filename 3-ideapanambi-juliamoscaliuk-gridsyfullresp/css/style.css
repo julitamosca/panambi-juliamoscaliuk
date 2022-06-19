@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /*list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;*/
 }
 
 /* ----HEADER---- */
@@ -25,10 +21,11 @@ h1 {
 
 nav ul li {
     list-style-type: none;
-    float: right;
-    text-align: center;
-    margin-right: 10px;
-    /* padding: 0 4px; */
+    display: inline-block;
+    /* float: right; */
+    /* text-align: center; */
+    padding: 10px;
+    align-content: flex-end;
 }
 
 a {
@@ -50,6 +47,7 @@ a:hover {
 /* ----VISTA DE LAS PROPIEDADES---- */
 
 .propiedad-destacada {
+    display: flex;
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -203,4 +201,55 @@ footer {
     background-color: #b944e7;
     text-align: center;
     padding: 2px;
+}
+
+/* ----GRIDS PARA EL INDEX---- */
+
+.grids-index {
+    display: grid;
+    grid-template-columns: (repeat(4, 1fr));
+    grid-template-rows: 2fr, 3fr,repeat(3, 1fr);
+
+    grid-template-areas: 
+    "header header header header"
+    "destacada destacada destacada destacada"
+    "alquiler alquiler alquiler alquiler"
+    "venta venta venta venta"
+    "footer footer footer footer";
+}
+
+header{
+    grid-area: header;
+
+}
+
+.propiedad-destacada{
+    grid-area: destacada;
+}
+
+.propiedad-alquiler{
+    grid-area: alquiler;
+}
+
+.propiedad-venta{
+    grid-area: venta;
+}
+
+footer{
+    grid-area: footer;
+}
+
+/* ----GRIDS PARA QUIENES SOMOS---- */
+
+.conocenos{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    grid-template-areas: 
+    "lucia titulol titulol aside"
+    "lucia textol textol aside"
+    "florencia titulof titulof aside"
+    "florencia textof textof aside"
+
 }
