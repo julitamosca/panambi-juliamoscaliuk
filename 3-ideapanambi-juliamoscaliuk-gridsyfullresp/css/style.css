@@ -117,7 +117,14 @@ img {
     color: #1f082c;
 }
 
-.conocenos__imagenes {
+.conocenos__imagenlu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.conocenos__imagenflor{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -243,13 +250,38 @@ footer{
 
 .conocenos{
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3 ,22 vh);
+    grid-template-rows: repeat(5, 20 vw);
 
     grid-template-areas: 
-    "lucia titulol titulol aside"
-    "lucia textol textol aside"
-    "florencia titulof titulof aside"
-    "florencia textof textof aside"
+    "titulo titulo titulo"
+    "lucia titulol  aside"
+    "lucia textol aside"
+    "florencia titulof aside"
+    "florencia textof aside"
+}
 
+.conocenos-titulo{
+    grid-area: titulo;
+}
+
+.conocenos__imagenlu { 
+    grid-area: lucia;
+
+}
+
+.titulol{
+grid-area: titulol;
+}
+
+.conocenos__imagenflor{
+    grid-area: florencia;
+}
+
+.titulof{
+grid-area: titulof;
+}
+
+.mision-vision{
+    grid-area: aside;
 }
