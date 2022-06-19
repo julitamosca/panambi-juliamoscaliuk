@@ -9,6 +9,7 @@
 	outline: none;*/
 }
 
+/* ----HEADER---- */
 header {
     background-color: #b944e7;
     border-style: dashed;
@@ -46,13 +47,9 @@ a:hover {
     position: relative;
 }
 
-/* body{
-background-image: url(../assets/imag/vista-mvd.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-} */
+/* ----VISTA DE LAS PROPIEDADES---- */
 
-.propiedadDestacada {
+.propiedad-destacada {
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -61,13 +58,13 @@ background-size: cover;
     overflow: hidden;
 }
 
-.propiedadDestacada p {
+.propiedad-destacada p {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
 }
 
-.propiedadAlquiler {
+.propiedad-alquiler {
     border-bottom: #1f082c;
     border-style: double;
     margin: 50px;
@@ -76,7 +73,7 @@ background-size: cover;
     overflow: hidden;
 }
 
-.propiedadVenta {
+.propiedad-venta {
     border-bottom: #1f082c;
     border-style: double;
     margin: 50px;
@@ -85,7 +82,7 @@ background-size: cover;
     overflow: hidden;
 }
 
-.propiedadAlquiler__imagenes {
+.propiedad-alquiler__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -93,7 +90,7 @@ background-size: cover;
 }
 
 
-.propiedadVenta__imagenes {
+.propiedad-venta__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -106,7 +103,7 @@ img {
     padding: 10px;
 }
 
-/* Ver de sacar las propiedades de arriba que son lo que hacen que las imagenes se me superpongan */
+/* ----QUIENES SOMOS---- */
 
 .conocenos {
     border-color: black;
@@ -145,7 +142,10 @@ aside h3 {
     font-weight: bold;
 }
 
-.listaDePropiedades__img {
+
+/* ----LISTA DE PROPIEDADES---- */
+
+.lista-propiedades__imagenes {
     border-bottom: #1f082c;
     border-style: double;
     margin: 50px;
@@ -154,7 +154,7 @@ aside h3 {
     overflow: hidden;
 }
 
-.listaDePropiedades__img img {
+.lista-propiedades__imagenes img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -163,7 +163,7 @@ aside h3 {
     padding: 3%;
 }
 
-.casaEnAlquiler {
+.casa-alquiler {
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -172,13 +172,13 @@ aside h3 {
     overflow: hidden;
 }
 
-.casaEnAlquiler p {
+.casa-alquiler p {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
 }
 
-.propiedad__img {
+.propiedad__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -187,7 +187,7 @@ aside h3 {
     padding: 3%;
 }
 
-.casaEnAlquiler__tabla {
+.casa-alquiler__tabla {
     border-color: black;
     border-style: dotted;
     margin: 50px;
@@ -195,6 +195,8 @@ aside h3 {
     background-color: rgb(204, 155, 204);
     overflow: hidden;
 }
+
+/* ----FOOTER---- */
 
 footer {
     height: 8rem;
