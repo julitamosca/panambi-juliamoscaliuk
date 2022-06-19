@@ -135,10 +135,11 @@ aside {
     border-color: rgb(250, 249, 249);
     border-style: double;
     margin: 50px;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(114, 23, 114);
     overflow: hidden;
     position: relative;
+    justify-content: space-around;
 }
 
 aside h3 {
@@ -252,17 +253,23 @@ footer{
     display: grid;
     grid-template-columns: repeat(3 ,22 vh);
     grid-template-rows: repeat(5, 20 vw);
+    
 
     grid-template-areas: 
     "titulo titulo titulo"
     "lucia titulol  aside"
     "lucia textol aside"
     "florencia titulof aside"
-    "florencia textof aside"
+    "florencia textof aside";
+
+    grid-gap: 2rem
 }
 
 .conocenos-titulo{
     grid-area: titulo;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: stretch;
 }
 
 .conocenos__imagenlu { 
@@ -274,12 +281,20 @@ footer{
 grid-area: titulol;
 }
 
+.textol{
+    grid-area: textol;
+}
+
 .conocenos__imagenflor{
     grid-area: florencia;
 }
 
 .titulof{
 grid-area: titulof;
+}
+
+.textof{
+    grid-area: textof;
 }
 
 .mision-vision{
