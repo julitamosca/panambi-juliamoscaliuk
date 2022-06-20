@@ -9,7 +9,6 @@
 header {
     background-color: #b944e7;
     color: #FFFFFF;
-    /* background: #dba9d3; */
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     border-style: dashed;
     font-family: 'Courier New', Courier, monospace;
@@ -61,7 +60,8 @@ a:hover {
 .propiedad-destacada p {
     display: flex;
     flex-flow: row wrap;
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
 }
 
 .propiedad-alquiler {
@@ -134,6 +134,7 @@ img {
 }
 
 aside {
+    display: inline-block;
     border-color: rgb(250, 249, 249);
     border-style: double;
     margin: 50px;
@@ -141,7 +142,9 @@ aside {
     background-color: rgb(114, 23, 114);
     overflow: hidden;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: justify;
+    align-self:stretch;
 }
 
 aside h3 {
@@ -210,8 +213,9 @@ footer {
     height: 8rem;
     background-color: #b944e7;
     text-align: center;
-    padding: 2px;
+    padding: 10px;
 }
+
 
 /* ----GRIDS PARA EL INDEX---- */
 
@@ -248,6 +252,7 @@ header {
 footer {
     grid-area: footer;
 }
+
 
 .propiedad-destacada {
     display: grid;
@@ -297,10 +302,8 @@ footer {
 }
 
 .conocenos-titulo {
-    grid-area: titulo;
     grid-column-start: 1;
     grid-column-end: 4;
-    align-items: stretch;
 }
 
 .conocenos__imagenlu {
@@ -315,6 +318,7 @@ footer {
 
 .textol {
     grid-area: textol;
+    text-align: justify;
 }
 
 .conocenos__imagenflor {
@@ -328,8 +332,19 @@ footer {
 
 .textof {
     grid-area: textof;
+    text-align: justify;
 }
 
 .mision-vision {
     grid-area: aside;
+}
+
+.mision-vision{
+    display: grid;
+    text-align: justify;
+}
+
+.mision-vision h3{
+    text-align: center;
+    align-self: center;
 }
