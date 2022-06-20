@@ -7,7 +7,10 @@
 
 /* ----HEADER---- */
 header {
-    background-color: #b944e7;
+    /* background-color: #b944e7; */
+    color: #FFFFFF;
+    background: #dba9d3;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     border-style: dashed;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
@@ -42,6 +45,7 @@ a:hover {
     width: 12em;
     height: 8em;
     position: relative;
+    transform: scale(3,2);
 }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
@@ -124,7 +128,7 @@ img {
     height: 20vh;
 }
 
-.conocenos__imagenflor{
+.conocenos__imagenflor {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -216,87 +220,87 @@ footer {
 .grids-index {
     display: grid;
     grid-template-columns: (repeat(4, 1fr));
-    grid-template-rows: 2fr, 3fr,repeat(3, 1fr);
+    grid-template-rows: 2fr, 3fr, repeat(3, 1fr);
 
-    grid-template-areas: 
-    "header header header header"
-    "destacada destacada destacada destacada"
-    "alquiler alquiler alquiler alquiler"
-    "venta venta venta venta"
-    "footer footer footer footer";
+    grid-template-areas:
+        "header header header header"
+        "destacada destacada destacada destacada"
+        "alquiler alquiler alquiler alquiler"
+        "venta venta venta venta"
+        "footer footer footer footer";
 }
 
-header{
+header {
     grid-area: header;
 
 }
 
-.propiedad-destacada{
+.propiedad-destacada {
     grid-area: destacada;
 }
 
-.propiedad-alquiler{
+.propiedad-alquiler {
     grid-area: alquiler;
 }
 
-.propiedad-venta{
+.propiedad-venta {
     grid-area: venta;
 }
 
-footer{
+footer {
     grid-area: footer;
 }
 
 /* ----GRIDS PARA QUIENES SOMOS---- */
 
-.conocenos{
+.conocenos {
     display: grid;
-    grid-template-columns: repeat(3 ,22 vh);
+    grid-template-columns: repeat(3, 22 vh);
     grid-template-rows: repeat(5, 20 vw);
-    
 
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "lucia titulol  aside"
-    "lucia textol aside"
-    "florencia titulof aside"
-    "florencia textof aside";
+
+    grid-template-areas:
+        "titulo titulo titulo"
+        "lucia titulol  aside"
+        "lucia textol aside"
+        "florencia titulof aside"
+        "florencia textof aside";
 
     grid-gap: 2rem
 }
 
-.conocenos-titulo{
+.conocenos-titulo {
     grid-area: titulo;
     grid-column-start: 1;
     grid-column-end: 4;
     align-items: stretch;
 }
 
-.conocenos__imagenlu { 
+.conocenos__imagenlu {
     grid-area: lucia;
 
 }
 
-.titulol{
-grid-area: titulol;
+.titulol {
+    grid-area: titulol;
 }
 
-.textol{
+.textol {
     grid-area: textol;
 }
 
-.conocenos__imagenflor{
+.conocenos__imagenflor {
     grid-area: florencia;
 }
 
-.titulof{
-grid-area: titulof;
+.titulof {
+    grid-area: titulof;
 }
 
-.textof{
+.textof {
     grid-area: textof;
 }
 
-.mision-vision{
+.mision-vision {
     grid-area: aside;
 }
