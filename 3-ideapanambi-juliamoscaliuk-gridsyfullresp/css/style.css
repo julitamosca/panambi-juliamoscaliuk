@@ -7,9 +7,9 @@
 
 /* ----HEADER---- */
 header {
-    /* background-color: #b944e7; */
+    background-color: #b944e7;
     color: #FFFFFF;
-    background: #dba9d3;
+    /* background: #dba9d3; */
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     border-style: dashed;
     font-family: 'Courier New', Courier, monospace;
@@ -24,9 +24,8 @@ h1 {
 
 nav ul li {
     list-style-type: none;
-    display: inline-block;
-    /* float: right; */
-    /* text-align: center; */
+    float: right;
+    text-align: center;
     padding: 10px;
     align-content: flex-end;
 }
@@ -41,11 +40,10 @@ a:hover {
 
 #mariposa-panambi {
     filter: brightness(1.1);
-    mix-blend-mode: multiply;
-    width: 12em;
-    height: 8em;
+    mix-blend-mode: hard-light;
+    width: 20rem;
+    height: 10rem;
     position: relative;
-    transform: scale(3,2);
 }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
@@ -251,6 +249,35 @@ footer {
     grid-area: footer;
 }
 
+.propiedad-destacada {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0,5fr, repeat(2, 1fr);
+}
+
+.propiedad-destacada__titulo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-self:stretch;
+}
+
+.propiedad-destacada__link {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.propiedad-destacada__video {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.propiedad-destacada__texto {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
 /* ----GRIDS PARA QUIENES SOMOS---- */
 
 .conocenos {
@@ -278,6 +305,7 @@ footer {
 
 .conocenos__imagenlu {
     grid-area: lucia;
+    align-self: center;
 
 }
 
@@ -291,6 +319,7 @@ footer {
 
 .conocenos__imagenflor {
     grid-area: florencia;
+    align-self: center;
 }
 
 .titulof {
