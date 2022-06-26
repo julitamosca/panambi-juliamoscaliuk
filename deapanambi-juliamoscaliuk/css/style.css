@@ -7,7 +7,8 @@
 
 /* ----HEADER---- */
 header {
-    background-color: #b944e7;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(156,39,191,1) 50%, rgba(255,0,189,1) 100%);
     color: #FFFFFF;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     border-style: dashed;
@@ -44,6 +45,7 @@ a:hover {
     width: 10rem;
     height: 5rem;
     position: absolute
+    
 
 }
 
@@ -94,6 +96,10 @@ a:hover {
     height: 20vh;
     overflow: scroll;
 
+}
+
+@keyframes .propiedad-alquiler__imagenes{
+    scale-up-bottom{0%{transform:scale(.5);transform-origin:50% 100%}100%{transform:scale(1);transform-origin:50% 100%}
 }
 
 
@@ -220,7 +226,8 @@ aside h3 {
 
 footer {
     height: 8rem;
-    background-color: #b944e7;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(156,39,191,1) 0%, rgba(255,0,189,1) 100%);
     text-align: center;
     padding: 10px;
 }
