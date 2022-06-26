@@ -92,10 +92,8 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: scroll;
-
+    overflow: hidden;
 }
-
 
 
     .propiedad-venta__imagenes {
@@ -103,7 +101,7 @@ a:hover {
         flex-flow: row wrap;
         justify-content: space-around;
         height: 20vh;
-        overflow: scroll;
+        overflow: hidden;
 
     }
 
@@ -111,7 +109,20 @@ a:hover {
         width: auto;
         max-height: 100%;
         padding: 10px;
+        transition: transform 116ms ease-in;
     }
+
+    img:hover{
+        transform: translate(0px, 0px) scale(1.5, 1.5);
+    }
+
+
+
+
+
+
+
+
 
     /* ----QUIENES SOMOS---- */
 
