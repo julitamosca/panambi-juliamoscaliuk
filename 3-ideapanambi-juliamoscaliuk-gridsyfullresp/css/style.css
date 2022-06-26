@@ -12,8 +12,7 @@ header {
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     border-style: dashed;
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    font-weight: bold;
+    font-size: x-small;
 }
 
 h1 {
@@ -22,11 +21,13 @@ h1 {
 }
 
 nav ul li {
+    width: 100%;
     list-style-type: none;
     float: right;
     text-align: center;
     padding: 10px;
     align-content: flex-end;
+
 }
 
 a {
@@ -40,9 +41,10 @@ a:hover {
 #mariposa-panambi {
     filter: brightness(1.1);
     mix-blend-mode: hard-light;
-    width: 20rem;
-    height: 10rem;
-    position: relative;
+    width: 10rem;
+    height: 5rem;
+    position: absolute
+
 }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
@@ -54,7 +56,8 @@ a:hover {
     margin: 50px;
     padding: 10px;
     background-color: rgb(204, 155, 204);
-    overflow: hidden;
+    overflow:hidden;
+    text-align: center;
 }
 
 .propiedad-destacada p {
@@ -71,6 +74,7 @@ a:hover {
     padding: 10px;
     background-color: rgb(204, 155, 204);
     overflow: hidden;
+    text-align: center;
 }
 
 .propiedad-venta {
@@ -80,6 +84,7 @@ a:hover {
     padding: 10px;
     background-color: rgb(204, 155, 204);
     overflow: hidden;
+    text-align: center;
 }
 
 .propiedad-alquiler__imagenes {
@@ -87,6 +92,8 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
+    overflow: scroll;
+
 }
 
 
@@ -95,6 +102,8 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
+    overflow: scroll;
+
 }
 
 img {
@@ -347,4 +356,26 @@ footer {
 .mision-vision h3{
     text-align: center;
     align-self: center;
+}
+
+/* ----MEDIA QUERIES---- */
+
+
+
+@media (min-width:1024px){
+    
+header{
+    font-size: large;
+    font-weight: bold;
+}
+
+    #mariposa-panambi{
+        width: 20rem;
+        height: 10rem;
+        position: relative;
+    }
+
+    nav ul li {
+        width: fit-content;
+        }
 }
