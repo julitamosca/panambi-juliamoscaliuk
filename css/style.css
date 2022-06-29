@@ -229,9 +229,6 @@ a:hover {
     }
 
 
-    .contacto´{
-        width: 60%;
-    }
 
     /* ----FOOTER---- */
 
@@ -242,6 +239,12 @@ a:hover {
         text-align: center;
         padding: 10px;
     }
+
+/*----Form----*/
+
+form{
+    align-items: stretch;
+}
 
 
     /* ----GRIDS PARA EL INDEX---- */

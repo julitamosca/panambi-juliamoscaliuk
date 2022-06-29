@@ -30,26 +30,27 @@
 
     <main>
         <section>
-            <div class="container-fluid row border border-4 rounded m-3 p-3">
+            <div class="container flex-row border border-4 rounded mb-3 col-xl-8 col-m-5 col-sm-3 text-center mt-4">
                 <h1>¡DEJÁ TU CONSULTA!</h1>
                 <H2>Alguien de nuestro equipo se contactará a la brevedad para aclarar todas tus dudas</H2>
             </div>
 
-            <div class="contacto">
-                <form class="row border border-4 rounded m-3 p-3">
-                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+            <div class="container__contacto">
+                <form class="container__formulario row border border-4 rounded m-3 p-3">
+
+                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
                         <input type="text" class="form-control" name="nombre" placeholder="Nombre completo: Julia Moscaliuk"
                             id="campo-nombre" required>
                     </div>
-                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
                         <input type="tel" class="form-control" name="telefono" placeholder="Teléfono de contacto: 099 999 999" id="campo-tel"
                             required>
                     </div>
-                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
                         <input type="email" class="form-control" name="email" placeholder="Correo electrònico: julia@moscaliuk.com"
                             id="campo-email" required>
                     </div>
-                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
                         <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
                         <select name="tipo-de-propiedad" id="Tipo de propiedad">
                             <option value="Alquiler">Alquiler</option>
@@ -57,8 +58,8 @@
                             <option value="Venta">Venta</option>
                         </select>
                     </div>
-                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
-                        <textarea name="ingresa-consulta" id="ingresa-consulta" cols="100%" rows="5%"
+                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3 flex-row">
+                        <textarea name="ingresa-consulta" id="ingresa-consulta"
                             placeholder="Ingresa tu consulta aquí ---->" required></textarea>
 
                     <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
