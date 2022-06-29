@@ -30,29 +30,26 @@
 
     <main>
         <section>
-            <div class="border border-4" class="rounded">
+            <div class="container-fluid row border border-4 rounded m-3 p-3">
                 <h1>¡DEJÁ TU CONSULTA!</h1>
                 <H2>Alguien de nuestro equipo se contactará a la brevedad para aclarar todas tus dudas</H2>
             </div>
 
             <div class="contacto">
-                <form class="border border-4" class="rounded">
-                    <div class="mb-3">
-                        <label for="campo-nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" name="nombre" placeholder="Julia Moscaliuk"
+                <form class="row border border-4 rounded m-3 p-3">
+                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre completo: Julia Moscaliuk"
                             id="campo-nombre" required>
                     </div>
-                    <div class="mb-3">
-                        <label for="campo-tel" class="form-label">Teléfono</label>
-                        <input type="tel" class="form-control" name="telefono" placeholder="099 999 999" id="campo-tel"
+                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                        <input type="tel" class="form-control" name="telefono" placeholder="Teléfono de contacto: 099 999 999" id="campo-tel"
                             required>
                     </div>
-                    <div class="mb-3">
-                        <label for="campo-email" class="form-label">Email</label>
-                        <input type="email" class="form-control" name="email" placeholder="julia@moscaliuk.com"
+                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                        <input type="email" class="form-control" name="email" placeholder="Correo electrònico: julia@moscaliuk.com"
                             id="campo-email" required>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
                         <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
                         <select name="tipo-de-propiedad" id="Tipo de propiedad">
                             <option value="Alquiler">Alquiler</option>
@@ -60,14 +57,14 @@
                             <option value="Venta">Venta</option>
                         </select>
                     </div>
-                    <div>
-                        <label for="ingresa-consulta" class="form-label">Ingresá tu consulta</label>
-                        <textarea name="ingresa-consulta" id="ingresa-consulta" cols="30" rows="10"
-                            placeholder="Ingresa tu consulta quí" required></textarea>
+                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
+                        <textarea name="ingresa-consulta" id="ingresa-consulta" cols="100%" rows="5%"
+                            placeholder="Ingresa tu consulta aquí ---->" required></textarea>
 
-
+                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3">
                         <button type="submit" class="btn btn-primary">Enviar mensaje</button>
                         <button type="reset" class="btn btn-primary">Borrar</button>
+                    </div>    
                         <!-- <input type="submit" value="Enviar mensaje">
                         <input type="reset" value="Borrar formulario"> -->
                     </div>
