@@ -57,7 +57,7 @@ a:hover {
     margin: 50px;
     padding: 10px;
     background-color: rgb(204, 155, 204);
-    overflow: hidden;
+    overflow:auto;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ a:hover {
     flex-flow: row wrap;
     text-align: justify;
     padding: 10px;
-}
+} 
 
 .propiedad-alquiler {
     border-bottom: #1f082c;
@@ -116,12 +116,6 @@ img {
 img:hover {
     transform: translate(0px, 0px) scale(1.5, 1.5);
 }
-
-
-
-
-
-
 
 
 
@@ -241,7 +235,7 @@ footer {
     padding: 10px;
 }
 
-/*----Form----*/
+/*----FORM----*/
 
 .container__contacto {
     display: flex;
