@@ -73,6 +73,10 @@ a:hover {
     height: 100%;
 }
 
+.propiedad__index{
+    display: inline-flex;
+}
+
 .propiedad-alquiler {
     border-bottom: #1f082c;
     border-style: double;
@@ -98,7 +102,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 
@@ -107,7 +111,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 img {
@@ -251,13 +255,12 @@ footer {
 .grids-index {
     display: grid;
     grid-template-columns: (repeat(4, 1fr));
-    grid-template-rows: 2fr, 3fr, repeat(3, 1fr);
+    grid-template-rows: 2fr, repeat(3, 1fr);
 
     grid-template-areas:
         "header header header header"
         "destacada destacada destacada destacada"
-        "alquiler alquiler alquiler alquiler"
-        "venta venta venta venta"
+        "alquiler alquiler venta venta"
         "footer footer footer footer";
 }
 
@@ -269,6 +272,7 @@ header {
 .propiedad-destacada {
     grid-area: destacada;
 }
+
 
 .propiedad-alquiler {
     grid-area: alquiler;
@@ -282,35 +286,6 @@ footer {
     grid-area: footer;
 }
 
-
-.propiedad-destacada {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0, 5fr, repeat(2, 1fr);
-}
-
-.propiedad-destacada__titulo {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    align-self: stretch;
-}
-
-.propiedad-destacada__link {
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-
-.propiedad-destacada__video {
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.propiedad-destacada__texto {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}
 
 /* ----GRIDS PARA QUIENES SOMOS---- */
 
