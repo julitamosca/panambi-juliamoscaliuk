@@ -236,6 +236,7 @@ aside h3 {
 /* ----FOOTER---- */
 
 footer {
+    font-size: x-large;
     color: #FFF;
     height: 8rem;
     background: rgb(2, 0, 36);
@@ -248,10 +249,18 @@ footer {
 
 /*----FORM----*/
 
+
+
 .container__contacto {
     display: flex;
     justify-content: center;
 }
+
+input::placeholder{
+        color: #FF2D95;
+        opacity: 0.5;
+}
+
 
 /* ----GRIDS PARA EL INDEX---- */
 
@@ -266,6 +275,8 @@ footer {
         "alquiler alquiler venta venta"
         "footer footer footer footer";
 }
+
+
 
 header {
     grid-area: header;

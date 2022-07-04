@@ -19,7 +19,6 @@
                     <img src="../assets/imag/mariposapanambi-removebg.png" alt="mariposa-panambi"
                         class="logo-panambi img-fluid fixed-top float-start" id="mariposa-panambi">
                 </a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -57,38 +56,46 @@
             </div>
 
             <div class="container__contacto">
-                <form class="container__formulario row border border-4 rounded m-2 p-2 justify-content-around">
-
-                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
-                        <input type="text" class="form-control" name="nombre"
-                            placeholder="Nombre completo: Julia Moscaliuk" id="campo-nombre" required>
+                <form class="container__formulario row border border-4 rounded m-2 p-2">
+                    <div class="row mb-3 ">
+                        <div class="col-xl-8 col-m-5 col-sm-3">
+                            <input type="text" class="form-control" name="nombre"
+                                placeholder="Nombre completo: Julia Moscaliuk" id="campo-nombre" required>
+                        </div>
                     </div>
-                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
-                        <input type="tel" class="form-control" name="telefono"
-                            placeholder="Teléfono de contacto: 099 999 999" id="campo-tel" required>
+                    <div class="row mb-3">
+                        <div class="col-xl-8 col-m-5 col-sm-3">
+                            <input type="tel" class="form-control" name="telefono"
+                                placeholder="Teléfono de contacto: 099 999 999" id="campo-tel" required>
+                        </div>
                     </div>
-                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
-                        <input type="email" class="form-control" name="email"
-                            placeholder="Correo electrònico: julia@moscaliuk.com" id="campo-email" required>
+                    <div class="row mb-3">
+                        <div class="col-xl-8 col-m-5 col-sm-3">
+                            <input type="email" class="form-control" name="email"
+                                placeholder="Correo electrònico: julia@moscaliuk.com" id="campo-email" required>
+                        </div>
                     </div>
-                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
-                        <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
-                        <select name="tipo-de-propiedad" id="Tipo de propiedad">
-                            <option value="Alquiler">Alquiler</option>
-                            <option value="Compra">Compra</option>
-                            <option value="Venta">Venta</option>
-                        </select>
+                    <div class="row mb-3">
+                        <div class="col-xl-8 col-m-5 col-sm-3">
+                            <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
+                            <select name="tipo-de-propiedad" id="Tipo de propiedad" class="form-control">
+                                <option value="Alquiler">Alquiler</option>
+                                <option value="Compra">Compra</option>
+                                <option value="Venta">Venta</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="row mb-3 col-xl-8 col-m-5 col-sm-3">
+                    <div class="row mb-3">
                         <textarea name="ingresa-consulta" id="ingresa-consulta"
-                            placeholder="Ingresa tu consulta aquí ---->" required></textarea>
+                            placeholder="Ingresa tu consulta aquí ---->" required rows="3"
+                            class="form-control"></textarea>
                     </div>
-
-                    <div class="mb-3 col-xl-8 col-m-5 col-sm-3 m-3 p-3">
-                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-                        <button type="reset" class="btn btn-primary">Borrar formulario</button>
+                    <div class="mb-3">
+                        <div class="col-xl-8 col-m-5 col-sm-3 m-3 p-3">
+                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                            <button type="reset" class="btn btn-primary">Borrar formulario</button>
+                        </div>
                     </div>
-
                 </form>
             </div>
         </section>
