@@ -7,6 +7,7 @@
 
 /* ----HEADER---- */
 header {
+    display: flex;
     background: rgb(2, 0, 36);
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(156, 39, 191, 1) 50%, rgba(255, 0, 189, 1) 100%);
     color: #FFFFFF;
@@ -44,7 +45,7 @@ a:hover {
     mix-blend-mode: hard-light;
     width: 10rem;
     height: 5rem;
-    position: absolute
+    position: relative
 }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
@@ -56,7 +57,7 @@ a:hover {
     margin: 50px;
     padding: 10px;
     background-color: rgb(204, 155, 204);
-    overflow: hidden;
+    overflow:auto;
     text-align: center;
 }
 
@@ -65,6 +66,15 @@ a:hover {
     flex-flow: row wrap;
     text-align: justify;
     padding: 10px;
+} 
+
+.propiedad-destacada__video{
+    width: 50%;
+    height: 100%;
+}
+
+.propiedad__index{
+    display: inline-flex;
 }
 
 .propiedad-alquiler {
@@ -96,299 +106,285 @@ a:hover {
 }
 
 
-    .propiedad-venta__imagenes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-        overflow: hidden;
+.propiedad-venta__imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+    overflow: hidden;
+}
 
-    }
+img {
+    width: auto;
+    max-height: 100%;
+    padding: 10px;
+    transition: transform 116ms ease-in;
+}
 
-    img {
-        width: auto;
-        max-height: 100%;
-        padding: 10px;
-        transition: transform 116ms ease-in;
-    }
-
-    img:hover{
-        transform: translate(0px, 0px) scale(1.5, 1.5);
-    }
-
+img:hover {
+    transform: translate(0px, 0px) scale(1.5, 1.5);
+}
 
 
 
+/* ----QUIENES SOMOS---- */
+
+.conocenos {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.conocenos h2 {
+    text-align: center;
+    color: #1f082c;
+}
+
+.conocenos__imagenlu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.conocenos__imagenflor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+aside {
+    display: inline-block;
+    border-color: rgb(250, 249, 249);
+    border-style: double;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(114, 23, 114);
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+    text-align: justify;
+    align-self: stretch;
+}
+
+aside h3 {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* ----LISTA DE PROPIEDADES---- */
+
+.lista-propiedades__imagenes {
+    border-bottom: #1f082c;
+    border-style: double;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.lista-propiedades__imagenes img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+    line-height: 1%;
+    padding: 3%;
+}
+
+.casa-alquiler {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.casa-alquiler p {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.propiedad__imagenes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 30vh;
+    line-height: 1%;
+    padding: 3%;
+}
+
+.casa-alquiler__tabla {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
 
 
 
+/* ----FOOTER---- */
+
+footer {
+    font-size: x-large;
+    color: #FFF;
+    height: 8rem;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(156, 39, 191, 1) 0%, rgba(255, 0, 189, 1) 100%);
+    text-align: center;
+    padding: 10px;
+}
 
 
-    /* ----QUIENES SOMOS---- */
 
-    .conocenos {
-        border-color: black;
-        border-style: dotted;
-        margin: 50px;
-        padding: 10px;
-        background-color: rgb(204, 155, 204);
-        overflow: hidden;
-    }
+/*----FORM----*/
 
-    .conocenos h2 {
-        text-align: center;
-        color: #1f082c;
-    }
 
-    .conocenos__imagenlu {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-    }
 
-    .conocenos__imagenflor {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-    }
+.container__contacto {
+    display: flex;
+    justify-content: center;
+}
 
-    aside {
-        display: inline-block;
-        border-color: rgb(250, 249, 249);
-        border-style: double;
-        margin: 50px;
-        padding: 20px;
-        background-color: rgb(114, 23, 114);
-        overflow: hidden;
-        position: relative;
-        justify-content: space-between;
-        text-align: justify;
-        align-self: stretch;
-    }
+input::placeholder{
+        color: #FF2D95;
+        opacity: 0.5;
+}
 
-    aside h3 {
-        color: aliceblue;
-        text-align: center;
+
+/* ----GRIDS PARA EL INDEX---- */
+
+.grids-index {
+    display: grid;
+    grid-template-columns: (repeat(4, 1fr));
+    grid-template-rows: 2fr, repeat(3, 1fr);
+
+    grid-template-areas:
+        "header header header header"
+        "destacada destacada destacada destacada"
+        "alquiler alquiler venta venta"
+        "footer footer footer footer";
+}
+
+
+
+header {
+    grid-area: header;
+
+}
+
+.propiedad-destacada {
+    grid-area: destacada;
+}
+
+
+.propiedad-alquiler {
+    grid-area: alquiler;
+}
+
+.propiedad-venta {
+    grid-area: venta;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* ----GRIDS PARA QUIENES SOMOS---- */
+
+.conocenos {
+    display: grid;
+    grid-template-columns: repeat(3, 22 vh);
+    grid-template-rows: repeat(5, 20 vw);
+
+
+    grid-template-areas:
+        "titulo titulo titulo"
+        "lucia titulol  aside"
+        "lucia textol aside"
+        "florencia titulof aside"
+        "florencia textof aside";
+
+    grid-gap: 2rem
+}
+
+.conocenos-titulo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.conocenos__imagenlu {
+    grid-area: lucia;
+    align-self: center;
+
+}
+
+.titulol {
+    grid-area: titulol;
+}
+
+.textol {
+    grid-area: textol;
+    text-align: justify;
+}
+
+.conocenos__imagenflor {
+    grid-area: florencia;
+    align-self: center;
+}
+
+.titulof {
+    grid-area: titulof;
+}
+
+.textof {
+    grid-area: textof;
+    text-align: justify;
+}
+
+.mision-vision {
+    grid-area: aside;
+}
+
+.mision-vision {
+    display: grid;
+    text-align: justify;
+}
+
+.mision-vision h3 {
+    text-align: center;
+    align-self: center;
+}
+
+/* ----MEDIA QUERIES---- */
+
+
+
+@media (min-width:1024px) {
+
+    header {
+        font-size: large;
         font-weight: bold;
     }
 
-
-    /* ----LISTA DE PROPIEDADES---- */
-
-    .lista-propiedades__imagenes {
-        border-bottom: #1f082c;
-        border-style: double;
-        margin: 50px;
-        padding: 10px;
-        background-color: rgb(204, 155, 204);
-        overflow: hidden;
+    #mariposa-panambi {
+        width: 20rem;
+        height: 10rem;
+        position: relative;
     }
 
-    .lista-propiedades__imagenes img {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-        line-height: 1%;
-        padding: 3%;
+    nav ul li {
+        width: fit-content;
     }
-
-    .casa-alquiler {
-        border-color: black;
-        border-style: dotted;
-        margin: 50px;
-        padding: 10px;
-        background-color: rgb(204, 155, 204);
-        overflow: hidden;
-    }
-
-    .casa-alquiler p {
-        display: flex;
-        flex-flow: row wrap;
-        text-align: center;
-    }
-
-    .propiedad__imagenes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 30vh;
-        line-height: 1%;
-        padding: 3%;
-    }
-
-    .casa-alquiler__tabla {
-        border-color: black;
-        border-style: dotted;
-        margin: 50px;
-        padding: 10px;
-        background-color: rgb(204, 155, 204);
-        overflow: hidden;
-    }
-
-    /* ----FOOTER---- */
-
-    footer {
-        height: 8rem;
-        background: rgb(2, 0, 36);
-        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(156, 39, 191, 1) 0%, rgba(255, 0, 189, 1) 100%);
-        text-align: center;
-        padding: 10px;
-    }
-
-
-    /* ----GRIDS PARA EL INDEX---- */
-
-    .grids-index {
-        display: grid;
-        grid-template-columns: (repeat(4, 1fr));
-        grid-template-rows: 2fr, 3fr, repeat(3, 1fr);
-
-        grid-template-areas:
-            "header header header header"
-            "destacada destacada destacada destacada"
-            "alquiler alquiler alquiler alquiler"
-            "venta venta venta venta"
-            "footer footer footer footer";
-    }
-
-    header {
-        grid-area: header;
-
-    }
-
-    .propiedad-destacada {
-        grid-area: destacada;
-    }
-
-    .propiedad-alquiler {
-        grid-area: alquiler;
-    }
-
-    .propiedad-venta {
-        grid-area: venta;
-    }
-
-    footer {
-        grid-area: footer;
-    }
-
-
-    .propiedad-destacada {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0, 5fr, repeat(2, 1fr);
-    }
-
-    .propiedad-destacada__titulo {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        align-self: stretch;
-    }
-
-    .propiedad-destacada__link {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    .propiedad-destacada__video {
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-
-    .propiedad-destacada__texto {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 4;
-    }
-
-    /* ----GRIDS PARA QUIENES SOMOS---- */
-
-    .conocenos {
-        display: grid;
-        grid-template-columns: repeat(3, 22 vh);
-        grid-template-rows: repeat(5, 20 vw);
-
-
-        grid-template-areas:
-            "titulo titulo titulo"
-            "lucia titulol  aside"
-            "lucia textol aside"
-            "florencia titulof aside"
-            "florencia textof aside";
-
-        grid-gap: 2rem
-    }
-
-    .conocenos-titulo {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    .conocenos__imagenlu {
-        grid-area: lucia;
-        align-self: center;
-
-    }
-
-    .titulol {
-        grid-area: titulol;
-    }
-
-    .textol {
-        grid-area: textol;
-        text-align: justify;
-    }
-
-    .conocenos__imagenflor {
-        grid-area: florencia;
-        align-self: center;
-    }
-
-    .titulof {
-        grid-area: titulof;
-    }
-
-    .textof {
-        grid-area: textof;
-        text-align: justify;
-    }
-
-    .mision-vision {
-        grid-area: aside;
-    }
-
-    .mision-vision {
-        display: grid;
-        text-align: justify;
-    }
-
-    .mision-vision h3 {
-        text-align: center;
-        align-self: center;
-    }
-
-    /* ----MEDIA QUERIES---- */
-
-
-
-    @media (min-width:1024px) {
-
-        header {
-            font-size: large;
-            font-weight: bold;
-        }
-
-        #mariposa-panambi {
-            width: 20rem;
-            height: 10rem;
-            position: relative;
-        }
-
-        nav ul li {
-            width: fit-content;
-        }
-    }
+}
