@@ -68,6 +68,11 @@ a:hover {
     padding: 10px;
 } 
 
+.propiedad-destacada__video{
+    width: 50%;
+    height: 100%;
+}
+
 .propiedad-alquiler {
     border-bottom: #1f082c;
     border-style: double;
