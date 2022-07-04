@@ -98,7 +98,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
@@ -107,8 +107,7 @@ a:hover {
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: hidden;
-
+    overflow: scroll;
 }
 
 img {
