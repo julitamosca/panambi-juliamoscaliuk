@@ -2,29 +2,47 @@
 <html lang="es">
 
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <link rel="shortcut icon" href=../assets/favicon/favicon.png>
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-        <title>INMOBILIARIA PANAMBÍ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="shortcut icon" href=../assets/favicon/favicon.png>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>INMOBILIARIA PANAMBÍ</title>
 </head>
 
 <body>
     <header>
-        <a href="../index.html">
-            <h1>INMOBILIARIA PANAMBÍ</h1>
-            <img src="../assets/imag/mariposapanambi-removebg.png" alt="mariposa-panambi" class="logo-panambi"
-                id="mariposa-panambi">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="listapropiedades.html">ALQUILERES</a></li>
-                <li><a href="listapropiedades.html">VENTAS</a></li>
-                <li><a href="formulariodecontacto.html">CONTACTATE CON NOSOTROS</a></li>
-                <li><a href="quienesomos.html">QUIÉNES SOMOS</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">INMOBILIARIA PANAMBÍ
+                    <img src="../assets/imag/mariposapanambi-removebg.png" alt="mariposa-panambi"
+                        class="logo-panambi img-fluid fixed-top float-start" id="mariposa-panambi">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="listapropiedades.html">VENTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="listapropiedades.html">ALQUILER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="formulariodecontacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="quienesomos.html">QUIENES
+                                SOMOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -77,6 +95,9 @@
             </svg></a>
         <p class="copyright">Created by Julia Moscaliuk © 2022</p>
     </footer>
+
+    <script src="../js/bootstrap.js"></script>
+
 </body>
 
 </html>
