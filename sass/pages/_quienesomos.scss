@@ -1,0 +1,115 @@
+/* ----QUIENES SOMOS---- */
+
+.conocenos {
+    border-color: black;
+    border-style: dotted;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(204, 155, 204);
+    overflow: hidden;
+}
+
+.conocenos h2 {
+    text-align: center;
+    color: #1f082c;
+}
+
+.conocenos__imagenlu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.conocenos__imagenflor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+aside {
+    display: inline-block;
+    border-color: rgb(250, 249, 249);
+    border-style: double;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(114, 23, 114);
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+    text-align: justify;
+    align-self: stretch;
+}
+
+aside h3 {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ----GRIDS PARA QUIENES SOMOS---- */
+
+.conocenos {
+    display: grid;
+    grid-template-columns: repeat(3, 22 vh);
+    grid-template-rows: repeat(5, 20 vw);
+
+
+    grid-template-areas:
+        "titulo titulo titulo"
+        "lucia titulol  aside"
+        "lucia textol aside"
+        "florencia titulof aside"
+        "florencia textof aside";
+
+    grid-gap: 2rem
+}
+
+.conocenos-titulo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.conocenos__imagenlu {
+    grid-area: lucia;
+    align-self: center;
+
+}
+
+.titulol {
+    grid-area: titulol;
+}
+
+.textol {
+    grid-area: textol;
+    text-align: justify;
+}
+
+.conocenos__imagenflor {
+    grid-area: florencia;
+    align-self: center;
+}
+
+.titulof {
+    grid-area: titulof;
+}
+
+.textof {
+    grid-area: textof;
+    text-align: justify;
+}
+
+.mision-vision {
+    grid-area: aside;
+}
+
+.mision-vision {
+    display: grid;
+    text-align: justify;
+}
+
+.mision-vision h3 {
+    text-align: center;
+    align-self: center;
+}

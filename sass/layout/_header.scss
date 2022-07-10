@@ -5,37 +5,103 @@ header {
     color: #FFFFFF;
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     border-style: dashed;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-small;
+
+    h1 {
+        text-align: center;
+        padding-top: 5%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
 }
 
-h1 {
-    text-align: center;
-    padding-top: 5%;
-}
 
-nav ul li {
-    width: 100%;
-    list-style-type: none;
-    float: right;
-    text-align: center;
-    padding: 10px;
-    align-content: flex-end;
 
+ul {
+    list-style: none;
+
+    li {
+        // display: inline-block;
+        width: 100%;
+        float: right;
+        text-align: center;
+        padding: 10px;
+        align-content: flex-end;
+    }
 }
 
 a {
     color: rgb(2, 2, 2);
+
+    &:hover {
+        color: coral;
+    }
 }
 
-a:hover {
-    color: coral;
-}
 
 #mariposa-panambi {
     filter: brightness(1.1);
     mix-blend-mode: hard-light;
     width: 10rem;
     height: 5rem;
-    position: relative
+    position: fixed;
+}
+
+
+/* ----GRIDS PARA EL header---- */
+
+.grids-index {
+    display: grid;
+    grid-template-columns: (repeat(4, 1fr));
+    grid-template-rows: 2fr, repeat(3, 1fr);
+
+    grid-template-areas:
+        "header header header header"
+        "destacada destacada destacada destacada"
+        "alquiler alquiler venta venta"
+        "footer footer footer footer";
+}
+
+
+
+header {
+    grid-area: header;
+
+}
+
+.propiedad-destacada {
+    grid-area: destacada;
+}
+
+
+.propiedad-alquiler {
+    grid-area: alquiler;
+}
+
+.propiedad-venta {
+    grid-area: venta;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* ----MEDIA QUERIES---- */
+
+@media (min-width:1024px) {
+
+    header {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    #mariposa-panambi {
+        width: 20rem;
+        height: 10rem;
+        position: relative;
+    }
+
+    nav ul li {
+        width: fit-content;
+    }
 }
