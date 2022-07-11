@@ -7,15 +7,16 @@
     padding: 10px;
     background-color: rgb(204, 155, 204);
     overflow: hidden;
-}
 
-.lista-propiedades__imagenes img {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-    line-height: 1%;
-    padding: 3%;
+    img {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 20vh;
+        line-height: 1%;
+        padding: 3%;
+    }
+
 }
 
 .casa-alquiler {
@@ -25,13 +26,14 @@
     padding: 10px;
     background-color: rgb(204, 155, 204);
     overflow: hidden;
+
+    p {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+    }
 }
 
-.casa-alquiler p {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-}
 
 .propiedad__imagenes {
     display: flex;

@@ -7,25 +7,26 @@
     padding: 10px;
     background-color: rgb(204, 155, 204);
     overflow: hidden;
-}
 
-.conocenos h2 {
-    text-align: center;
-    color: #1f082c;
-}
+    .conocenos h2 {
+        text-align: center;
+        color: #1f082c;
+    }
 
-.conocenos__imagenlu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-}
+    &__imagenlu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 20vh;
+    }
 
-.conocenos__imagenflor {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
+    &__imagenflor {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 20vh;
+    }
+
 }
 
 aside {
@@ -40,13 +41,16 @@ aside {
     justify-content: space-between;
     text-align: justify;
     align-self: stretch;
+
+    h3 {
+        color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+    }
+
 }
 
-aside h3 {
-    color: aliceblue;
-    text-align: center;
-    font-weight: bold;
-}
+
 
 /* ----GRIDS PARA QUIENES SOMOS---- */
 

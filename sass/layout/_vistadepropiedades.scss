@@ -1,4 +1,3 @@
-
 /* ----VISTA DE LAS PROPIEDADES---- */
 
 .propiedad-destacada {
@@ -10,19 +9,22 @@
     background-color: rgb(204, 155, 204);
     overflow: auto;
     text-align: center;
+
+    p {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    &__video {
+        width: 50%;
+        height: 100%;
+
+    }
+
 }
 
-.propiedad-destacada p {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: justify;
-    padding: 10px;
-}
-
-.propiedad-destacada__video {
-    width: 50%;
-    height: 100%;
-}
 
 .propiedad__index {
     display: inline-flex;
@@ -36,6 +38,14 @@
     background-color: rgb(204, 155, 204);
     overflow: hidden;
     text-align: center;
+
+    &__imagenes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 20vh;
+        overflow: hidden;
+    }
 }
 
 .propiedad-venta {
@@ -46,32 +56,24 @@
     background-color: rgb(204, 155, 204);
     overflow: hidden;
     text-align: center;
+
+    &__imagenes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 20vh;
+        overflow: hidden;
+    }
 }
 
-.propiedad-alquiler__imagenes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-    overflow: hidden;
-}
-
-
-.propiedad-venta__imagenes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-    overflow: hidden;
-}
 
 img {
     width: auto;
     max-height: 100%;
     padding: 10px;
     transition: transform 116ms ease-in;
-}
 
-img:hover {
-    transform: translate(0px, 0px) scale(1.5, 1.5);
+    &:hover {
+        transform: translate(0px, 0px) scale(1.5, 1.5);
+    }
 }
