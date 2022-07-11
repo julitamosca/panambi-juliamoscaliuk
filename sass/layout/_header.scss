@@ -19,9 +19,8 @@ ul {
     list-style: none;
 
     li {
-        // display: inline-block;
+        display: inline-block;
         width: 100%;
-        float: right;
         text-align: center;
         padding: 10px;
         align-content: flex-end;
@@ -46,7 +45,7 @@ a {
 }
 
 
-/* ----GRIDS PARA EL header---- */
+/* ----GRIDS PARA EL HEADER---- */
 
 .grids-index {
     display: grid;
@@ -59,7 +58,6 @@ a {
         "alquiler alquiler venta venta"
         "footer footer footer footer";
 }
-
 
 
 header {

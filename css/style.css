@@ -1,349 +1,279 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 header {
-    display: flex;
-    background: #020024;
-    background: radial-gradient(circle, #020024 0%, #9c27bf 50%, #ff00bd 100%);
-    color: #FFFFFF;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    border-style: dashed;
-}
-
-header h1 {
+  display: flex;
+  background: #020024;
+  background: radial-gradient(circle, #020024 0%, #9c27bf 50%, #ff00bd 100%);
+  color: #FFFFFF;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  border-style: dashed; }
+  header h1 {
     text-align: center;
     padding-top: 5%;
-    font-family: 'Courier New', Courier, monospace;
-}
+    font-family: 'Courier New', Courier, monospace; }
 
 ul {
-    list-style: none;
-}
-
-ul li {
+  list-style: none; }
+  ul li {
+    display: inline-block;
     width: 100%;
-    float: right;
     text-align: center;
     padding: 10px;
-    align-content: flex-end;
-}
+    align-content: flex-end; }
 
 a {
-    color: #020202;
-}
-
-a:hover {
-    color: coral;
-}
+  color: #020202; }
+  a:hover {
+    color: coral; }
 
 #mariposa-panambi {
-    filter: brightness(1.1);
-    mix-blend-mode: hard-light;
-    width: 10rem;
-    height: 5rem;
-    position: fixed;
-}
+  filter: brightness(1.1);
+  mix-blend-mode: hard-light;
+  width: 10rem;
+  height: 5rem;
+  position: fixed; }
 
-/* ----GRIDS PARA EL header---- */
+/* ----GRIDS PARA EL HEADER---- */
 .grids-index {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2fr, repeat(3, 1fr);
-    grid-template-areas: "header header header header""destacada destacada destacada destacada""alquiler alquiler venta venta""footer footer footer footer";
-}
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2fr, repeat(3, 1fr);
+  grid-template-areas: "header header header header" "destacada destacada destacada destacada" "alquiler alquiler venta venta" "footer footer footer footer"; }
 
 header {
-    grid-area: header;
-}
+  grid-area: header; }
 
 .propiedad-destacada {
-    grid-area: destacada;
-}
+  grid-area: destacada; }
 
 .propiedad-alquiler {
-    grid-area: alquiler;
-}
+  grid-area: alquiler; }
 
 .propiedad-venta {
-    grid-area: venta;
-}
+  grid-area: venta; }
 
 footer {
-    grid-area: footer;
-}
+  grid-area: footer; }
 
 /* ----MEDIA QUERIES---- */
 @media (min-width: 1024px) {
-    header {
-        font-size: large;
-        font-weight: bold;
-    }
+  header {
+    font-size: large;
+    font-weight: bold; }
 
-    #mariposa-panambi {
-        width: 20rem;
-        height: 10rem;
-        position: relative;
-    }
+  #mariposa-panambi {
+    width: 20rem;
+    height: 10rem;
+    position: relative; }
 
-    nav ul li {
-        width: fit-content;
-    }
-}
-
+  nav ul li {
+    width: fit-content; } }
 /* ----FOOTER---- */
 footer {
-    font-size: x-large;
-    color: #FFF;
-    height: 8rem;
-    background: #020024;
-    background: radial-gradient(circle, #020024 0%, #9c27bf 0%, #ff00bd 100%);
-    text-align: center;
-    padding: 10px;
-}
+  font-size: x-large;
+  color: #FFF;
+  height: 8rem;
+  background: #020024;
+  background: radial-gradient(circle, #020024 0%, #9c27bf 0%, #ff00bd 100%);
+  text-align: center;
+  padding: 10px; }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
 .propiedad-destacada {
-    display: flex;
-    border-color: black;
-    border-style: dotted;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: auto;
-    text-align: center;
-}
-
-.propiedad-destacada p {
+  display: flex;
+  border-color: black;
+  border-style: dotted;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: auto;
+  text-align: center; }
+  .propiedad-destacada p {
     display: flex;
     flex-flow: row wrap;
     text-align: justify;
-    padding: 10px;
-}
-
-.propiedad-destacada__video {
+    padding: 10px; }
+  .propiedad-destacada__video {
     width: 50%;
-    height: 100%;
-}
+    height: 100%; }
 
 .propiedad__index {
-    display: inline-flex;
-}
+  display: inline-flex; }
 
 .propiedad-alquiler {
-    border-bottom: #1f082c;
-    border-style: double;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: hidden;
-    text-align: center;
-}
-
-.propiedad-alquiler__imagenes {
+  border-bottom: #1f082c;
+  border-style: double;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: hidden;
+  text-align: center; }
+  .propiedad-alquiler__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: hidden;
-}
+    overflow: hidden; }
 
 .propiedad-venta {
-    border-bottom: #1f082c;
-    border-style: double;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: hidden;
-    text-align: center;
-}
-
-.propiedad-venta__imagenes {
+  border-bottom: #1f082c;
+  border-style: double;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: hidden;
+  text-align: center; }
+  .propiedad-venta__imagenes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
-    overflow: hidden;
-}
+    overflow: hidden; }
 
 img {
-    width: auto;
-    max-height: 100%;
-    padding: 10px;
-    transition: transform 116ms ease-in;
-}
-
-img:hover {
-    transform: translate(0px, 0px) scale(1.5, 1.5);
-}
+  width: auto;
+  max-height: 100%;
+  padding: 10px;
+  transition: transform 116ms ease-in; }
+  img:hover {
+    transform: translate(0px, 0px) scale(1.5, 1.5); }
 
 /*----FORM----*/
 .container__contacto {
-    display: flex;
-    justify-content: center;
-}
-
-.container__contacto input::placeholder {
+  display: flex;
+  justify-content: center; }
+  .container__contacto input::placeholder {
     color: #FF2D95;
-    opacity: 0.5;
-}
+    opacity: 0.5; }
 
 /* ----LISTA DE PROPIEDADES---- */
 .lista-propiedades__imagenes {
-    border-bottom: #1f082c;
-    border-style: double;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: hidden;
-}
-
-.lista-propiedades__imagenes img {
+  border-bottom: #1f082c;
+  border-style: double;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: hidden; }
+  .lista-propiedades__imagenes img {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     height: 20vh;
     line-height: 1%;
-    padding: 3%;
-}
+    padding: 3%; }
 
 .casa-alquiler {
-    border-color: black;
-    border-style: dotted;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: hidden;
-}
-
-.casa-alquiler p {
+  border-color: black;
+  border-style: dotted;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: hidden; }
+  .casa-alquiler p {
     display: flex;
     flex-flow: row wrap;
-    text-align: center;
-}
+    text-align: center; }
 
 .propiedad__imagenes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 30vh;
-    line-height: 1%;
-    padding: 3%;
-}
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 30vh;
+  line-height: 1%;
+  padding: 3%; }
 
 .casa-alquiler__tabla {
-    border-color: black;
-    border-style: dotted;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: hidden;
-}
+  border-color: black;
+  border-style: dotted;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: hidden; }
 
 /* ----QUIENES SOMOS---- */
 .conocenos {
-    border-color: black;
-    border-style: dotted;
-    margin: 50px;
-    padding: 10px;
-    background-color: #cc9bcc;
-    overflow: hidden;
-}
-
-.conocenos .conocenos h2 {
+  border-color: black;
+  border-style: dotted;
+  margin: 50px;
+  padding: 10px;
+  background-color: #cc9bcc;
+  overflow: hidden; }
+  .conocenos .conocenos h2 {
     text-align: center;
-    color: #1f082c;
-}
-
-.conocenos__imagenlu {
+    color: #1f082c; }
+  .conocenos__imagenlu {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 20vh;
-}
-
-.conocenos__imagenflor {
+    height: 20vh; }
+  .conocenos__imagenflor {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 20vh;
-}
+    height: 20vh; }
 
 aside {
-    display: inline-block;
-    border-color: #faf9f9;
-    border-style: double;
-    margin: 50px;
-    padding: 20px;
-    background-color: #721772;
-    overflow: hidden;
-    position: relative;
-    justify-content: space-between;
-    text-align: justify;
-    align-self: stretch;
-}
-
-aside h3 {
+  display: inline-block;
+  border-color: #faf9f9;
+  border-style: double;
+  margin: 50px;
+  padding: 20px;
+  background-color: #721772;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between;
+  text-align: justify;
+  align-self: stretch; }
+  aside h3 {
     color: aliceblue;
     text-align: center;
-    font-weight: bold;
-}
+    font-weight: bold; }
 
 /* ----GRIDS PARA QUIENES SOMOS---- */
 .conocenos {
-    display: grid;
-    grid-template-columns: repeat(3, 22 vh);
-    grid-template-rows: repeat(5, 20 vw);
-    grid-template-areas: "titulo titulo titulo""lucia titulol  aside""lucia textol aside""florencia titulof aside""florencia textof aside";
-    grid-gap: 2rem;
-}
+  display: grid;
+  grid-template-columns: repeat(3, 22 vh);
+  grid-template-rows: repeat(5, 20 vw);
+  grid-template-areas: "titulo titulo titulo" "lucia titulol  aside" "lucia textol aside" "florencia titulof aside" "florencia textof aside";
+  grid-gap: 2rem; }
 
 .conocenos-titulo {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
+  grid-column-start: 1;
+  grid-column-end: 4; }
 
 .conocenos__imagenlu {
-    grid-area: lucia;
-    align-self: center;
-}
+  grid-area: lucia;
+  align-self: center; }
 
 .titulol {
-    grid-area: titulol;
-}
+  grid-area: titulol; }
 
 .textol {
-    grid-area: textol;
-    text-align: justify;
-}
+  grid-area: textol;
+  text-align: justify; }
 
 .conocenos__imagenflor {
-    grid-area: florencia;
-    align-self: center;
-}
+  grid-area: florencia;
+  align-self: center; }
 
 .titulof {
-    grid-area: titulof;
-}
+  grid-area: titulof; }
 
 .textof {
-    grid-area: textof;
-    text-align: justify;
-}
+  grid-area: textof;
+  text-align: justify; }
 
 .mision-vision {
-    grid-area: aside;
-}
+  grid-area: aside; }
 
 .mision-vision {
-    display: grid;
-    text-align: justify;
-}
+  display: grid;
+  text-align: justify; }
 
 .mision-vision h3 {
-    text-align: center;
-    align-self: center;
-}
+  text-align: center;
+  align-self: center; }
