@@ -5,7 +5,7 @@
     border-style: dotted;
     margin: 50px;
     padding: 10px;
-    background-color: rgb(204, 155, 204);
+    background-color: $color-section;
     overflow: hidden;
 
     .conocenos h2 {
@@ -34,7 +34,7 @@ aside {
     border-style: double;
     margin: 50px;
     padding: 20px;
-    background-color: rgb(114, 23, 114);
+    background-color: $color-aside;
     overflow: hidden;
     position: relative;
     justify-content: space-between;

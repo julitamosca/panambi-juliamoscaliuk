@@ -5,7 +5,7 @@
     border-style: double;
     margin: 50px;
     padding: 10px;
-    background-color: rgb(204, 155, 204);
+    background-color: $color-section;
     overflow: hidden;
 
     img {
@@ -24,7 +24,7 @@
     border-style: dotted;
     margin: 50px;
     padding: 10px;
-    background-color: rgb(204, 155, 204);
+    background-color: $color-section;
     overflow: hidden;
 
     p {
@@ -49,6 +49,6 @@
     border-style: dotted;
     margin: 50px;
     padding: 10px;
-    background-color: rgb(204, 155, 204);
+    background-color: $color-section;
     overflow: hidden;
 }
