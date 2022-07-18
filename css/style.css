@@ -7,9 +7,7 @@
 header {
   display: flex;
   background: #020024;
-  background: radial-gradient(circle, #020024 0%, #9c27bf 50%, #ff00bd 100%);
-  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-  border-style: dashed; }
+  background: radial-gradient(circle, #020024 0%, #9c27bf 50%, #ff00bd 100%); }
   header h1 {
     text-align: center;
     padding: 5%;
@@ -22,7 +20,7 @@ ul {
     width: 100%;
     text-align: center;
     padding: 10px;
-    align-content: flex-end;
+    align-self: flex-end;
     font-family: "Courier New", Courier, monospace; }
 
 a {
