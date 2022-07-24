@@ -29,74 +29,67 @@ a {
     color: rgb(2, 2, 2);
 
     &:hover {
-        color: coral;
+        color: $color-aside;
     }
 }
 
 
-#mariposa-panambi {
-    filter: brightness(1.1);
-    mix-blend-mode: hard-light;
-    width: 10rem;
-    height: 5rem;
-    position: fixed;
-}
 
 
 /* ----GRIDS PARA EL HEADER---- */
 
-.grids-index {
-    display: grid;
-    grid-template-columns: (repeat(4, 1fr));
-    grid-template-rows: 2fr, repeat(3, 1fr);
+// .grids-index {
+//     display: grid;
+//     grid-template-columns: (repeat(4, 1fr));
+//     grid-template-rows: 2fr, repeat(3, 1fr);
 
-    grid-template-areas:
-        "header header header header"
-        "destacada destacada destacada destacada"
-        "alquiler alquiler venta venta"
-        "footer footer footer footer";
-}
-
-
-header {
-    grid-area: header;
-
-}
-
-.propiedad-destacada {
-    grid-area: destacada;
-}
+//     grid-template-areas:
+//         "header header header header"
+//         "destacada destacada destacada destacada"
+//         "alquiler alquiler venta venta"
+//         "footer footer footer footer"
+// }
 
 
-.propiedad-alquiler {
-    grid-area: alquiler;
-}
+// header {
+//     grid-area: header;
 
-.propiedad-venta {
-    grid-area: venta;
-}
+// }
 
-footer {
-    grid-area: footer;
-}
+// .propiedad-destacada {
+//     grid-area: destacada;
+// }
+
+
+// // .propiedad-alquiler {
+// //     grid-area: alquiler;
+// // }
+
+// // .propiedad-venta {
+// //     grid-area: venta;
+
+
+// footer {
+//     grid-area: footer;
+// }
 
 
 /* ----MEDIA QUERIES---- */
 
-@media (min-width:1024px) {
+// @media (min-width:1024px) {
 
-    header {
-        font-size: large;
-        font-weight: bold;
-    }
+//     header {
+//         font-size: large;
+//         font-weight: bold;
+//     }
 
-    #mariposa-panambi {
-        width: 20rem;
-        height: 10rem;
-        position: relative;
-    }
+//     #mariposa-panambi {
+//         width: 10rem;
+//         height: 5rem;
+//         position: relative;
+//     }
 
-    nav ul li {
-        width: fit-content;
-    }
-}
+//     nav ul li {
+//         width: fit-content;
+//     }
+// }

@@ -17,16 +17,16 @@
         padding: 10px;
     }
 
-    &__video {
+    &:video {
         width: 50%;
         height: 100%;
     }
 }
 
 
-.propiedad__index {
-    display: inline-flex;
-}
+// .propiedad__index {
+//     display: inline-flex;
+// }
 
 .propiedad-alquiler {
     border-bottom: #1f082c;
@@ -37,7 +37,7 @@
     overflow: hidden;
     text-align: center;
 
-    &__imagenes {
+    &:imagenes {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -55,7 +55,7 @@
     overflow: hidden;
     text-align: center;
 
-    &__imagenes {
+    &:imagenes {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -66,9 +66,9 @@
 
 
 img {
-    width: auto;
-    max-height: 100%;
-    padding: 10px;
+    // width: auto;
+    // max-height: 100%;
+    // padding: 10px;
     transition: transform 116ms ease-in;
 
     &:hover {
