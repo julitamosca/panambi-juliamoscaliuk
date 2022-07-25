@@ -49,7 +49,7 @@ a {
 /* ----FOOTER---- */
 footer {
   font-size: medium;
-  color: #FFF;
+  color: #721772;
   height: 8rem;
   background: #020024;
   background: linear-gradient(to bottom, #ffffff 0%, #ffccff 100%);
@@ -110,6 +110,9 @@ footer a svg {
     overflow: hidden; }
 
 img {
+  width: auto;
+  max-height: 100%;
+  padding: 10px;
   transition: transform 116ms ease-in; }
   img:hover {
     transform: translate(0px, 0px) scale(1.5, 1.5); }
