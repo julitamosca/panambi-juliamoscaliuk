@@ -77,7 +77,8 @@ footer a svg {
     padding: 10px; }
   .propiedad-destacada:video {
     width: 50%;
-    height: 100%; }
+    height: 100%;
+    object-fit: contain; }
 
 .propiedad-alquiler {
   border-bottom: #1f082c;
