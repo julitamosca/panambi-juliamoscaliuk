@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -44,7 +45,44 @@ a {
   a:hover {
     color: #721772; }
 
-/* ----GRIDS PARA EL HEADER---- */
+/* ----GRIDS PARA EL HEADER 
+
+// .grids-index {
+//     display: grid;
+//     grid-template-columns: (repeat(4, 1fr));
+//     grid-template-rows: 2fr, repeat(3, 1fr);
+
+//     grid-template-areas:
+//         "header header header header"
+//         "destacada destacada destacada destacada"
+//         "alquiler alquiler venta venta"
+//         "footer footer footer footer"
+// }
+
+
+// header {
+//     grid-area: header;
+
+// }
+
+// .propiedad-destacada {
+//     grid-area: destacada;
+// }
+
+
+// // .propiedad-alquiler {
+// //     grid-area: alquiler;
+// // }
+
+// // .propiedad-venta {
+// //     grid-area: venta;
+
+
+// footer {
+//     grid-area: footer;
+// }
+
+
 /* ----MEDIA QUERIES---- */
 /* ----FOOTER---- */
 footer {
@@ -61,61 +99,31 @@ footer a svg {
   font-size: larger; }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
-.propiedad-destacada {
-  display: flex;
-  border-color: black;
-  border-style: dotted;
-  margin: 50px;
-  padding: 10px;
-  background-color: #cc9bcc;
-  overflow: auto;
-  text-align: center; }
-  .propiedad-destacada p {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: justify;
-    padding: 10px; }
-  .propiedad-destacada:video {
-    width: 50%;
-    position: relative; }
-
-.propiedad-alquiler {
-  border-bottom: #1f082c;
-  border-style: double;
-  margin: 50px;
-  padding: 10px;
-  background-color: #cc9bcc;
-  overflow: hidden;
-  text-align: center; }
-  .propiedad-alquiler:imagenes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-    overflow: hidden; }
-
-.propiedad-venta {
-  border-bottom: #1f082c;
-  border-style: double;
-  margin: 50px;
-  padding: 10px;
-  background-color: #cc9bcc;
-  overflow: hidden;
-  text-align: center; }
-  .propiedad-venta:imagenes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-    overflow: hidden; }
-
+Esto se puede borrar porque lo saqué
 img {
   width: auto;
   max-height: 100%;
   padding: 10px;
   transition: transform 116ms ease-in; }
+  Esto se puede borrar porque lo saqué
   img:hover {
     transform: translate(0px, 0px) scale(1.5, 1.5); }
+
+.vistas-montevideo {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; }
+
+.vistas-montevideo__titulo {
+  position: absolute;
+  text-align: center;
+  color: aliceblue;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 /*----FORM----*/
 .container__contacto {

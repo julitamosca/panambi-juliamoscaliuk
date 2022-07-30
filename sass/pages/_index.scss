@@ -1,0 +1,38 @@
+// PROPIEDAD DESTACADA
+
+.vistas-montevideo{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.vistas-montevideo__titulo{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+// .propiedad-alquiler {
+//     background-color: rgb(204, 155, 204);
+//     overflow: hidden;
+//     text-align: center;
+
+//     &:imagenes {
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//         height: 20vh;
+//         
+//     }
+// }

@@ -1,67 +1,51 @@
 /* ----VISTA DE LAS PROPIEDADES---- */
 
-.propiedad-destacada {
-    display: flex;
-    border-color: black;
-    border-style: dotted;
-    margin: 50px;
-    padding: 10px;
-    background-color: rgb(204, 155, 204);
-    overflow: auto;
-    text-align: center;
 
-    p {
-        display: flex;
-        flex-flow: row wrap;
-        text-align: justify;
-        padding: 10px;
-    }
+Esto se puede borrar porque lo saqué
+// .propiedad-destacada {
+//     display: flex;
+//     border-color: black;
+//     border-style: dotted;
+//     margin: 50px;
+//     padding: 10px;
+//     background-color: rgb(204, 155, 204);
+//     overflow: auto;
+//     text-align: center;
 
-    &:video {
-        width: 50%;
-        // height: 100%;
-        // object-fit: contain;
-        position: relative;
-    }
-}
+//     p {
+//         display: flex;
+//         flex-flow: row wrap;
+//         text-align: justify;
+//         padding: 10px;
+//     }
+
+//     &:video {
+//         width: 50%;
+//         // height: 100%;
+//         // object-fit: contain;
+//         position: relative;
+//     }
+// }
 
 
 
-.propiedad-alquiler {
-    border-bottom: #1f082c;
-    border-style: double;
-    margin: 50px;
-    padding: 10px;
-    background-color: rgb(204, 155, 204);
-    overflow: hidden;
-    text-align: center;
+// .propiedad-venta {
+//     border-bottom: #1f082c;
+//     border-style: double;
+//     margin: 50px;
+//     padding: 10px;
+//     background-color: rgb(204, 155, 204);
+//     overflow: hidden;
+//     text-align: center;
 
-    &:imagenes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-        overflow: hidden;
-    }
-}
-
-.propiedad-venta {
-    border-bottom: #1f082c;
-    border-style: double;
-    margin: 50px;
-    padding: 10px;
-    background-color: rgb(204, 155, 204);
-    overflow: hidden;
-    text-align: center;
-
-    &:imagenes {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-        overflow: hidden;
-    }
-}
+//     &:imagenes {
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//         height: 20vh;
+//         overflow: hidden;
+//     }
+// }
 
 
 img {
