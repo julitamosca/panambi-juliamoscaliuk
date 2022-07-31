@@ -36,9 +36,10 @@ ul {
     font-family: "Courier New", Courier, monospace; }
 
 a {
-  color: #020202; }
+  color: #020202;
+  text-decoration: none; }
   a:hover {
-    color: #721772; }
+    color: white; }
 
 /* ----FOOTER---- */
 footer {

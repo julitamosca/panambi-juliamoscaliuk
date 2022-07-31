@@ -20,9 +20,10 @@ ul {
 
 a {
     color: rgb(2, 2, 2);
+    text-decoration: none;
 
     &:hover {
-        color: $color-aside;
+        color: white;
     }
 }
 
