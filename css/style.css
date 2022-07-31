@@ -14,10 +14,25 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s; }
+  transition-duration: 0.2s; }
   .boton:hover {
     background-color: #721772;
     color: white; }
+
+/* ----HEADER---- */
+header {
+  background: linear-gradient(to bottom, #ffccff 0%, #ffffff 100%);
+  color: black;
+  height: 10rem;
+  padding: 5rem; }
+
+ul {
+  list-style: none;
+  color: black; }
+  ul li a:visited {
+    color: #674064; }
+  ul li a:hover {
+    color: #ffffff; }
 
 /* ----FOOTER---- */
 footer {

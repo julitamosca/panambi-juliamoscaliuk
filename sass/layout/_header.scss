@@ -1,29 +1,29 @@
-// header {
-//     display: flex;
-//     background: rgb(2, 0, 36);
-//     background: $color-header;
-// }
+/* ----HEADER---- */
+
+header {
+    background: $color-header;
+    color: black;
+    height: 10rem;
+    padding: 5rem;
+}
 
 
-// ul {
-//     list-style: none;
+ul {
+    list-style: none;
+    color: black;
 
-//     li {
-//         display: inline-block;
-//         width: 100%;
-//         text-align: center;
-//         padding: 10px;
-//         align-self: flex-end;
-//         font-family: $tipografia-header;
-//     }
-// }
+    li {
+        a {
+            &:visited {
+                color: $color1;
+            }
 
-// a {
-//     color: rgb(2, 2, 2);
-//     text-decoration: none;
+            &:hover {
+                color: $color6;
+            }
+        }
+    }
 
-//     &:hover {
-//         color: white;
-//     }
-// }
+}
 
+// Revisar por que no me toma el hover
