@@ -40,45 +40,6 @@ a {
   a:hover {
     color: #721772; }
 
-/* ----GRIDS PARA EL HEADER 
-
-// .grids-index {
-//     display: grid;
-//     grid-template-columns: (repeat(4, 1fr));
-//     grid-template-rows: 2fr, repeat(3, 1fr);
-
-//     grid-template-areas:
-//         "header header header header"
-//         "destacada destacada destacada destacada"
-//         "alquiler alquiler venta venta"
-//         "footer footer footer footer"
-// }
-
-
-// header {
-//     grid-area: header;
-
-// }
-
-// .propiedad-destacada {
-//     grid-area: destacada;
-// }
-
-
-// // .propiedad-alquiler {
-// //     grid-area: alquiler;
-// // }
-
-// // .propiedad-venta {
-// //     grid-area: venta;
-
-
-// footer {
-//     grid-area: footer;
-// }
-
-
-/* ----MEDIA QUERIES---- */
 /* ----FOOTER---- */
 footer {
   font-size: medium;
