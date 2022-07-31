@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <meta name="description" content="Inmobiliaria Panambi. Las mejores propiedades de Montevideo, costos accesibles y variedad de propuestas.">
-    <meta name="keywords" content="inmobiliaria, compra, venta, alquiler, propiedad, casa, apartamento, arrendar, invertir, bienes raices">
+    <meta name="description"
+        content="Inmobiliaria Panambi. Las mejores propiedades de Montevideo, costos accesibles y variedad de propuestas.">
+    <meta name="keywords"
+        content="inmobiliaria, compra, venta, alquiler, propiedad, casa, apartamento, arrendar, invertir, bienes raices">
     <link rel="shortcut icon" href=./assets/favicon/favicon.ico>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,11 +16,14 @@
 </head>
 
 <body>
+
+    <!--------- HEADER-------->
+
     <header class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html"><img src="./assets/imag/mariposaanambioriginal.png" alt="mariposa-panambi"
-                    class="logo-panambi w-100 w-lg-50" id="mariposa-panambi"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/imag/mariposaanambioriginal.png"
+                    alt="mariposa-panambi" class="logo-panambi w-25 w-lg-50" id="mariposa-panambi"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,101 +50,128 @@
 
 
 
-    <!--CLASS= propiedad-alquiler PASA A SER UN CARROUSEL DE IMÁGENES CON TEXTO-->
-        <section class="vistas-montevideo">
-            <div id="vistas-montevideo__controls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="vistas-montevideo__imagenes">
-                        <div class="carousel-item active" role="listbox">
-                            <img src="./assets/imag/apartmentos1.jpg" alt="apartamento" class="w-100">
-                        </div>
-                        <div class="carousel-item" role="listbox">
-                            <img src="./assets/imag/bano3.jpg" alt="baño" class="w-100">
-                        </div>
-                        <div class="carousel-item" role="listbox">
-                            <img src="./assets/imag/jardin1.jpg" alt="jardín" class="w-100">
-                        </div>
-                        <div class="carousel-item" role="listbox">
-                            <img src="./assets/imag/cuarto1.jpg" alt="dormitorio" class="w-100">
-                        </div>
-                        <div class="carousel-item" role="listbox">
-                            <img src="./assets/imag/kitchen1.jpg" alt="cocina" class="w-100">
-                        </div>
-                        <div class="carousel-item" role="listbox">
-                            <img src="./assets/imag/living1.jpg" alt="living" class="w-100">
-                        </div>
-                        <div class="carousel-item" role="listbox">
-                            <img src="./assets/imag/bano3.jpg" alt="baño" class="w-100">
-                        </div>
+    <!----------CAROUSEL MONTEVIDEO-------->
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlquilerControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previo</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAlquilerControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
-                        </button>
-
-                        <div class="vistas-montevideo__titulo container">
-                        <h1 class="text-center home-main-text-first "><a href="./pages/listapropiedades.html">LAS MEJORES PROPIEDADES DE MONTEVIDEO A UN CLICK DE DISTANCIA</a></h1>
-                        <h2 class="vistas-montevideo__subtitulo text-center home-below-text">alquileres - ventas - tasaciones</h2>
+    <section class="vistas-montevideo container-fluid">
+        <div id="vistas-montevideo__controls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="vistas-montevideo__imagenes">
+                    <div class="carousel-item active img-fluid" role="listbox">
+                        <img src="./assets/imag/montevideo1.jpg" alt="apartamento" class="w-100">
                     </div>
-                </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section class="propiedad-venta container col-12 col-lg-4">
-            <div class="align-items-center">
-                <h2 class="text-center"><a href="./pages/listapropiedades.html">PROPIEDADES EN VENTA</a></h2>
-                <h3 class="text-center">La propiedad de tus sueños te está esperando</h3>
-            </div> -->
-
-            <!-- <div id="carouselVentaControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="d-block propiedad-venta__imagenes">
-                        <div class="carousel-item active">
-                            <img src="./assets/imag/apartmentos2.jpg" alt="apartamento" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/cuarto2.jpg" alt="dormitorio" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/casa2.jpg" alt="casa" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/apartmentos2.jpg" alt="apartamento" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/casa1.jpg" alt="casa" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/cuarto3.jpg" alt="dormitorio" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/bano4.jpg" alt="baño" class="w-100">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/imag/jardin2.jpg" alt="jardin" class="w-100">
-                        </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselVentaControls"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previo</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselVentaControls"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
-                        </button>
+                    <div class="carousel-item img-fluid" role="listbox">
+                        <img src="./assets/imag/montevideo2.jpg" alt="baño" class="w-100">
+                    </div>
+                    <div class="carousel-item img-fluid" role="listbox">
+                        <img src="./assets/imag/montevideo3.jpg" alt="jardín" class="w-100">
+                    </div>
+                    <div class="carousel-item img-fluid" role="listbox">
+                        <img src="./assets/imag/montevideo4.jpg" alt="dormitorio" class="w-100">
+                    </div>
+                    <div class="carousel-item img-fluid" role="listbox">
+                        <img src="./assets/imag/montevideo5.jpg" alt="cocina" class="w-100">
+                    </div>
+                    <div class="carousel-item img-fluid" role="listbox">
+                        <img src="./assets/imag/montevideo6.jpg" alt="living" class="w-100">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlquilerControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previo</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAlquilerControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                    <div class="vistas-montevideo__titulo container">
+                        <h1 class="text-center home-main-text-first"><a href="./pages/listapropiedades.html">¿BUSCANDO
+                                TU PRÓXIMO HOGAR? <br> Estás a un click de distancia </a></h1>
+                        <h2 class="vistas-montevideo__subtitulo text-center home-below-text">alquileres - ventas -
+                            tasaciones</h2>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </div>
+    </section>
+
+
+    <!---------TARJETAS DESTACADAS-------->
+
+    <section>
+        <h2>Propiedades en alquiler</h2>
+        <div class="contenedor-propiedades d-lg-flex">
+
+            <div class="lista-propiedades__tarjeta">
+                <img src="../assets/imag/apartmentos2.jpg" class="card-img-top" alt="Triplex en Barrio Sur">
+                <div class="lista-propiedades__tarjeta-body">
+                    <h3 class="lista-propiedades__tarjeta-titulo">Triplex en Barrio Sur Cod.11223344</h3>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Alquiler: $21.000</li>
+                    <li class="list-group-item">Gastos comunes: $1200 promedio</li>
+                    <li class="list-group-item">Disponible a partir de mediados o fines de junio de 2022</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn"><a href="./ejemplodepropiedad.html">Visita
+                            esta propiedad</a></button>
+                </div>
+            </div>
+
+
+            <div class="lista-propiedades__tarjeta">
+                <img src="../assets/imag/apartmentos1.jpg" class="card-img-top" alt="Apartamento Cordón">
+                <div class="lista-propiedades__tarjeta-body">
+                    <h3 class="lista-propiedades__tarjeta-titulo">Apartamento Cordón Cod.77223344</h3>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Precio de alquiler: $16.000</li>
+                    <li class="list-group-item">Gastos comunes: $3.600</li>
+                    <li class="list-group-item">Vigilancia las 24 hs.</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn"><a href="./ejemplodepropiedad.html">Visita
+                            esta propiedad</a></button>
+                </div>
+            </div>
+
+
+            <div class="lista-propiedades__tarjeta">
+                <img src="../assets/imag/casa3.jpg" class="card-img-top" alt="Casa en La Teja">
+                <div class="lista-propiedades__tarjeta-body">
+                    <h3 class="lista-propiedades__tarjeta-titulo">Casa en La Teja
+                        Cod.11223377</h3>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Precio de alquiler: $13.000</li>
+                    <li class="list-group-item">Gastos comunes: no tiene</li>
+                    <li class="list-group-item">Tributos domiciliarios bajos</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn"><a href="./ejemplodepropiedad.html">Visita
+                            esta propiedad</a></button>
+                </div>
+            </div>
+
+            <div class="lista-propiedades__tarjeta">
+                <img src="../assets/imag/casa2.jpg" class="card-img-top" alt="Casa en Cordón">
+                <div class="lista-propiedades__tarjeta-body">
+                    <h3 class="lista-propiedades__tarjeta-titulo">Casa en Cordón Cod.66223344</h3>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Precio de alquiler: $19.000</li>
+                    <li class="list-group-item">Gastos comunes: no tiene</li>
+                    <li class="list-group-item">Garantías: pólizas de seguro, Anda o Contaduría</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn"><a href="./ejemplodepropiedad.html">Visita
+                            esta propiedad</a></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
 
 
 
