@@ -24,10 +24,6 @@ header {
   display: flex;
   background: #020024;
   background: linear-gradient(to bottom, #ffccff 0%, #ffffff 100%); }
-  header h1 {
-    text-align: center;
-    padding: 5%;
-    font-family: "Courier New", Courier, monospace; }
 
 ul {
   list-style: none; }
