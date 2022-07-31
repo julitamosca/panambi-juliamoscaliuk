@@ -1,30 +1,24 @@
 /* ----FOOTER---- */
 
-footer{
-    background-color: $color-footer;
+footer {
+    background: $color-footer;
     color: black;
     height: 8rem;
     padding: 5rem;
     text-align: center;
     font-size: medium;
-}
+    }
+
+    a, svg {
+        font-size: larger;
+        color: $color5;
 
 
+        &:visited {
+            color: $color1;
+        }
 
-
-
-
-
-
-
-
-// footer {
-//     
-//     color: $color-aside;
-
-// }
-
-
-footer a svg{
-    font-size: larger;
-}
+        &:hover {
+            color: $color6;
+        }
+    }

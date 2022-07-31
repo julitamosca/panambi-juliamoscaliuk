@@ -1,29 +1,29 @@
-header {
-    display: flex;
-    background: rgb(2, 0, 36);
-    background: $color-header;
-}
+// header {
+//     display: flex;
+//     background: rgb(2, 0, 36);
+//     background: $color-header;
+// }
 
 
-ul {
-    list-style: none;
+// ul {
+//     list-style: none;
 
-    li {
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-        align-self: flex-end;
-        font-family: $tipografia-header;
-    }
-}
+//     li {
+//         display: inline-block;
+//         width: 100%;
+//         text-align: center;
+//         padding: 10px;
+//         align-self: flex-end;
+//         font-family: $tipografia-header;
+//     }
+// }
 
-a {
-    color: rgb(2, 2, 2);
-    text-decoration: none;
+// a {
+//     color: rgb(2, 2, 2);
+//     text-decoration: none;
 
-    &:hover {
-        color: white;
-    }
-}
+//     &:hover {
+//         color: white;
+//     }
+// }
 

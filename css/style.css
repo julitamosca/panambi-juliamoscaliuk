@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -20,217 +19,24 @@
     background-color: #721772;
     color: white; }
 
-header {
-  display: flex;
-  background: #020024;
-  background: linear-gradient(to bottom, #ffccff 0%, #ffffff 100%); }
-
-ul {
-  list-style: none; }
-  ul li {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    align-self: flex-end;
-    font-family: "Courier New", Courier, monospace; }
-
-a {
-  color: #020202;
-  text-decoration: none; }
-  a:hover {
-    color: white; }
-
 /* ----FOOTER---- */
 footer {
-  background-color: linear-gradient(to bottom, #ffffff 0%, #ffccff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffccff 100%);
   color: black;
   height: 8rem;
   padding: 5rem;
   text-align: center;
   font-size: medium; }
 
-footer a svg {
-  font-size: larger; }
+a, svg {
+  font-size: larger;
+  color: #c673bf; }
+  a:visited, svg:visited {
+    color: #674064; }
+  a:hover, svg:hover {
+    color: #ffffff; }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
-Esto se puede borrar porque lo saqué
-img {
-  width: auto;
-  max-height: 100%;
-  padding: 10px;
-  transition: transform 116ms ease-in; }
-  Esto se puede borrar porque lo saqué
-  img:hover {
-    transform: translate(0px, 0px) scale(1.5, 1.5); }
-
-.vistas-montevideo {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  width: 100;
-  height: 100; }
-
-.vistas-montevideo__titulo {
-  position: absolute;
-  text-align: center;
-  color: aliceblue;
-  top: 10px;
-  left: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.vistas-montevideo__imagenes {
-  justify-content: space-around; }
-
 /*----FORM----*/
-.container__contacto {
-  display: flex;
-  justify-content: center; }
-  .container__contacto input::placeholder {
-    color: #FF2D95;
-    opacity: 0.5; }
-  .container__contacto textarea::placeholder {
-    color: #FF2D95;
-    opacity: 0.5; }
-
 /* ----LISTA DE PROPIEDADES---- */
-.lista-propiedades__tarjeta {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  border: 5px solid black;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 10px;
-  width: auto;
-  background-color: #cc9bcc; }
-  .lista-propiedades__tarjeta h3 {
-    text-align: center;
-    text-size-adjust: auto; }
-  .lista-propiedades__tarjeta p {
-    text-align: center;
-    text-size-adjust: auto; }
-  .lista-propiedades__tarjeta img {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh;
-    line-height: 1%;
-    padding: 3%;
-    overflow: hidden; }
-
-.casa-alquiler {
-  border-color: black;
-  border-style: dotted;
-  margin: 50px;
-  padding: 3px;
-  background-color: #cc9bcc;
-  overflow: hidden; }
-  .casa-alquiler p {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center; }
-
-.propiedad__imagenes {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  height: 30vh;
-  line-height: 1%;
-  padding: 3%; }
-
-.casa-alquiler__tabla {
-  border-color: black;
-  border-style: dotted;
-  margin: 50px;
-  padding: 10px;
-  background-color: #cc9bcc;
-  overflow: hidden; }
-
 /* ----QUIENES SOMOS---- */
-.conocenos {
-  border-color: black;
-  border-style: dotted;
-  margin: 50px;
-  padding: 10px;
-  background-color: #cc9bcc;
-  overflow: hidden; }
-  .conocenos .conocenos h2 {
-    text-align: center;
-    color: #1f082c; }
-  .conocenos__imagenlu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh; }
-  .conocenos__imagenflor {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 20vh; }
-
-aside {
-  display: inline-block;
-  border-color: #faf9f9;
-  border-style: double;
-  margin: 50px;
-  padding: 20px;
-  background-color: #721772;
-  overflow: hidden;
-  position: relative;
-  justify-content: space-between;
-  text-align: justify;
-  align-self: stretch; }
-  aside h3 {
-    color: aliceblue;
-    text-align: center;
-    font-weight: bold; }
-
-/* ----GRIDS PARA QUIENES SOMOS---- */
-.conocenos {
-  display: grid;
-  grid-template-columns: repeat(3, 22 vh);
-  grid-template-rows: repeat(5, 20 vw);
-  grid-template-areas: "titulo titulo titulo" "lucia titulol  aside" "lucia textol aside" "florencia titulof aside" "florencia textof aside";
-  grid-gap: 2rem; }
-
-.conocenos-titulo {
-  grid-column-start: 1;
-  grid-column-end: 4; }
-
-.conocenos__imagenlu {
-  grid-area: lucia;
-  align-self: center; }
-
-.titulol {
-  grid-area: titulol; }
-
-.textol {
-  grid-area: textol;
-  text-align: justify; }
-
-.conocenos__imagenflor {
-  grid-area: florencia;
-  align-self: center; }
-
-.titulof {
-  grid-area: titulof; }
-
-.textof {
-  grid-area: textof;
-  text-align: justify; }
-
-.mision-vision {
-  grid-area: aside; }
-
-.mision-vision {
-  display: grid;
-  text-align: justify; }
-
-.mision-vision h3 {
-  text-align: center;
-  align-self: center; }

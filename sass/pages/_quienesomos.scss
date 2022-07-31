@@ -1,118 +1,118 @@
 /* ----QUIENES SOMOS---- */
 
-.conocenos {
-    border-color: black;
-    border-style: dotted;
-    margin: 50px;
-    padding: 10px;
-    background-color: $color-section;
-    overflow: hidden;
+// .conocenos {
+//     border-color: black;
+//     border-style: dotted;
+//     margin: 50px;
+//     padding: 10px;
+//     background-color: $color-section;
+//     overflow: hidden;
 
-    .conocenos h2 {
-        text-align: center;
-        color: #1f082c;
-    }
+//     .conocenos h2 {
+//         text-align: center;
+//         color: #1f082c;
+//     }
 
-    &__imagenlu {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-    }
+//     &__imagenlu {
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//         height: 20vh;
+//     }
 
-    &__imagenflor {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        height: 20vh;
-    }
-}
+//     &__imagenflor {
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//         height: 20vh;
+//     }
+// }
 
-aside {
-    display: inline-block;
-    border-color: rgb(250, 249, 249);
-    border-style: double;
-    margin: 50px;
-    padding: 20px;
-    background-color: $color-aside;
-    overflow: hidden;
-    position: relative;
-    justify-content: space-between;
-    text-align: justify;
-    align-self: stretch;
+// aside {
+//     display: inline-block;
+//     border-color: rgb(250, 249, 249);
+//     border-style: double;
+//     margin: 50px;
+//     padding: 20px;
+//     background-color: $color-aside;
+//     overflow: hidden;
+//     position: relative;
+//     justify-content: space-between;
+//     text-align: justify;
+//     align-self: stretch;
 
-    h3 {
-        color: aliceblue;
-        text-align: center;
-        font-weight: bold;
-    }
+//     h3 {
+//         color: aliceblue;
+//         text-align: center;
+//         font-weight: bold;
+//     }
 
-}
-
-
-
-/* ----GRIDS PARA QUIENES SOMOS---- */
-
-.conocenos {
-    display: grid;
-    grid-template-columns: repeat(3, 22 vh);
-    grid-template-rows: repeat(5, 20 vw);
+// }
 
 
-    grid-template-areas:
-        "titulo titulo titulo"
-        "lucia titulol  aside"
-        "lucia textol aside"
-        "florencia titulof aside"
-        "florencia textof aside";
 
-    grid-gap: 2rem
-}
+// /* ----GRIDS PARA QUIENES SOMOS---- */
 
-.conocenos-titulo {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
+// .conocenos {
+//     display: grid;
+//     grid-template-columns: repeat(3, 22 vh);
+//     grid-template-rows: repeat(5, 20 vw);
 
-.conocenos__imagenlu {
-    grid-area: lucia;
-    align-self: center;
 
-}
+//     grid-template-areas:
+//         "titulo titulo titulo"
+//         "lucia titulol  aside"
+//         "lucia textol aside"
+//         "florencia titulof aside"
+//         "florencia textof aside";
 
-.titulol {
-    grid-area: titulol;
-}
+//     grid-gap: 2rem
+// }
 
-.textol {
-    grid-area: textol;
-    text-align: justify;
-}
+// .conocenos-titulo {
+//     grid-column-start: 1;
+//     grid-column-end: 4;
+// }
 
-.conocenos__imagenflor {
-    grid-area: florencia;
-    align-self: center;
-}
+// .conocenos__imagenlu {
+//     grid-area: lucia;
+//     align-self: center;
 
-.titulof {
-    grid-area: titulof;
-}
+// }
 
-.textof {
-    grid-area: textof;
-    text-align: justify;
-}
+// .titulol {
+//     grid-area: titulol;
+// }
 
-.mision-vision {
-    grid-area: aside;
-}
+// .textol {
+//     grid-area: textol;
+//     text-align: justify;
+// }
 
-.mision-vision {
-    display: grid;
-    text-align: justify;
-}
+// .conocenos__imagenflor {
+//     grid-area: florencia;
+//     align-self: center;
+// }
 
-.mision-vision h3 {
-    text-align: center;
-    align-self: center;
-}
+// .titulof {
+//     grid-area: titulof;
+// }
+
+// .textof {
+//     grid-area: textof;
+//     text-align: justify;
+// }
+
+// .mision-vision {
+//     grid-area: aside;
+// }
+
+// .mision-vision {
+//     display: grid;
+//     text-align: justify;
+// }
+
+// .mision-vision h3 {
+//     text-align: center;
+//     align-self: center;
+// }
