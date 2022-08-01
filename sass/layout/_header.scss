@@ -8,12 +8,10 @@ header {
 }
 
 
-ul {
+ul, li, a {
     list-style: none;
     color: black;
 
-    li {
-        a {
             &:visited {
                 color: $color1;
             }
@@ -22,8 +20,5 @@ ul {
                 color: $color6;
             }
         }
-    }
-
-}
 
 // Revisar por que no me toma el hover

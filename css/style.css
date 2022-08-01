@@ -26,12 +26,12 @@ header {
   height: 10rem;
   padding: 5rem; }
 
-ul {
+ul, li, a {
   list-style: none;
   color: black; }
-  ul li a:visited {
+  ul:visited, li:visited, a:visited {
     color: #674064; }
-  ul li a:hover {
+  ul:hover, li:hover, a:hover {
     color: #ffffff; }
 
 /* ----FOOTER---- */
@@ -52,6 +52,15 @@ a, svg {
     color: #ffffff; }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
+.carousel-montevideo {
+  height: 440px; }
+
+.carousel-item {
+  min-height: 400px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-image: url("../../assets/imag/montevideo1.jpg"), url("../../assets/imag/montevideo2.jpg"), url("../../assets/imag/montevideo3.jpg"); }
+
 /*----FORM----*/
 /* ----LISTA DE PROPIEDADES---- */
 /* ----QUIENES SOMOS---- */
