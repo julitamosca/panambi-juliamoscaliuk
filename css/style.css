@@ -52,14 +52,24 @@ a, svg {
     color: #ffffff; }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
-.carousel-montevideo {
-  height: 440px; }
-
 .carousel-item {
-  min-height: 400px;
-  background: no-repeat center center scroll;
+  height: 32rem;
+  background: black;
+  color: #ffffff;
+  position: relative; }
+
+.container {
+  justify-content: center; }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
   background-size: cover;
-  background-image: url("../../assets/imag/montevideo1.jpg"), url("../../assets/imag/montevideo2.jpg"), url("../../assets/imag/montevideo3.jpg"); }
+  opacity: 0.5; }
 
 /*----FORM----*/
 /* ----LISTA DE PROPIEDADES---- */

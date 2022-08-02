@@ -1,19 +1,31 @@
+
 // CAROUSEL MONTEVIDEO
-.carousel-montevideo{
-    height: 440px;
-}
 
 
 .carousel-item{
-min-height: 400px;
-    background: no-repeat center center scroll;
-    background-size: cover;
-    background-image:url("../../assets/imag/montevideo1.jpg"), url("../../assets/imag/montevideo2.jpg"), url("../../assets/imag/montevideo3.jpg");
+height: 32rem;
+background: black;
+color: $color6;
+position: relative;
 
 }
 
+.container{
+justify-content: center;
+    // ver esta propiedad para que me quede sobre la imagen
+}
 
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
 
+}
 // PROPIEDAD DESTACADA
 
 // .vistas-montevideo{
