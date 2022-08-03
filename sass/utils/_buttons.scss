@@ -1,18 +1,17 @@
 .boton {
     background-color: white;
     color: black;
-    border: 2px solid $color-aside;
+    border: 2px solid $color1;
     padding: 16px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.2s;
 
     &:hover {
-        background-color: $color-aside;
-        color: white;
+        background-color: $color1;
+        color: $color6;
         animation: bounce 2s ease 0s 1 normal forwards;
 
     }

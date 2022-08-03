@@ -7,17 +7,16 @@
 .boton {
   background-color: white;
   color: black;
-  border: 2px solid #721772;
+  border: 2px solid #674064;
   padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.2s; }
   .boton:hover {
-    background-color: #721772;
-    color: white;
+    background-color: #674064;
+    color: #ffffff;
     animation: bounce 2s ease 0s 1 normal forwards; }
 
 /* ----HEADER---- */
@@ -59,8 +58,11 @@ a, svg {
   color: #ffffff;
   position: relative; }
 
-.container {
-  justify-content: center; }
+.montevideo {
+  position: relative;
+  justify-content: center;
+  color: #ffffff solid;
+  padding-top: 100px; }
 
 .overlay {
   position: absolute;
@@ -110,6 +112,7 @@ a, svg {
 
 .destacadas h2 {
   text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 900;
   font-size: 20px;
   margin: 0 0 20px; }

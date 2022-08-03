@@ -1,4 +1,4 @@
-// CAROUSEL MONTEVIDEOc-ccambiar nombre de las clases
+// CAROUSEL MONTEVIDEO
 
 .carousel-item {
     height: 32rem;
@@ -7,9 +7,11 @@
     position: relative;
 }
 
-.container {
-    justify-content: center;
-    // ver esta propiedad para que me quede sobre la imagen
+.montevideo {
+    position:relative;
+justify-content: center;
+color: $color6 solid;
+padding-top: 100px;
 }
 
 .overlay {
@@ -88,6 +90,7 @@
 
 .destacadas h2 {
     text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 900;
     font-size: 20px;
     margin: 0 0 20px;
