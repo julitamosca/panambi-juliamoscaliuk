@@ -48,127 +48,70 @@
 
     <!-------FORMULARIO DE CONTACTO--------->
 
-    <div class="container">
-        <form class="row mt-5">
-
-            <!--nombre completo--->
-            <div class="col-6 ">
-                <label for="name-imput" class="form-label">Nombre completo</label>
-                <input type="text" class="form-control" id="campo-nombre" placeholder="Julia Moscaliuk" required>
-            </div>
-
-            <!-- <div class="container__contacto">
+    <!-- 
+                titulo del formulario
+                
+                <div class="container__contacto">
                 <form class="container__formulario row border border-4 rounded m-2 p-2">
                     <div class="row mb-3 justify-content-center">
                         <div class="col-8 col-md-5 col-sm-3">
-                            -->
 
 
 
-            
-<!---telefono- -->
-            <div class="col-6">
-                <label for="phone-imput" class="form-label">celular</label>
-                <input type="phone" class="form-control" id="campo-telefono"
-                    placeholder="099 090 909" required>
-            </div>
-
-
-            <!---email--->
-            <div class="col-6">
-                <label for="email-imput" class="form-label">Email</label>
-                <input type="email" class="form-control" id="campo-mail" placeholder="juliamoscaliuk@juliamoscaliuk.com" required>
-            </div>
-            
-<!-- tipo de propiedad -->
-            <div class="col-6">
-                <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
-                            <select name="tipo-de-propiedad" id="Tipo de propiedad" class="form-control">
-                                <option value="Alquiler">Alquiler</option>
-                                <option value="Compra">Compra</option>
-                                <option value="Venta">Venta</option>
-                            </select>
-
-            
-
-
-
-<!-- codigo de propiedad -->
-            <div class="col-6">
-                <label for="code-imput" class="form-label">Código de propiedad</label>
-                <input type="number" class="form-control" id="campo-codigo" placeholder="11223344">
-            </div>
-
-            
-            <!-- consulta -->
-            <div class="col-12">
-                <label for="text-imput" class="form-label">Ingresa tu consulta</label>
-                <input type="text" class="form-control" id="campo-consulta">
-            </div>
-
-
-
-
-            <!-- botones -->
-        </form>
-    </div>
-
-
-
-    <!-- <main>
-        <section>
+                                    <section>
                 <div class="text-center">
                     <h1 class="text-center">¡DEJÁ TU CONSULTA!</h1>
                     <H2 class="text-center text-muted">Alguien de nuestro equipo se contactará a la brevedad para
                         aclarar todas tus dudas</H2>
                 </div>
+                            -->
 
-            
-                        </div>
-                    </div>
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-8 col-md-5 col-sm-3">
-                            <label for="tel">Teléfono</label>
-                            <input type="tel" class="form-control" name="telefono" placeholder="099 999 999"
-                                id="campo-tel" required>
-                        </div>
-                    </div>
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-8 col-md-5 col-sm-3">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" name="email"
-                                placeholder="Email: julia@moscaliuk.com" id="campo-email" required>
-                        </div>
-                    </div>
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-8 col-md-5 col-sm-3">
-                            <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
-                            <select name="tipo-de-propiedad" id="Tipo de propiedad" class="form-control">
-                                <option value="Alquiler">Alquiler</option>
-                                <option value="Compra">Compra</option>
-                                <option value="Venta">Venta</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-8 col-md-5 col-sm-3">
-                            <label for="consulta">Ingresa el motivo de tu consulta. ¡A la brevedad un agente se
-                                comunicará contigo!</label>
-                            <textarea name="ingresa-consulta" id="ingresa-consulta"
-                                placeholder="Ingresa tu consulta aquí:" required rows="5"
-                                class="form-control"></textarea>
-                        </div>
-                    </div>
-                    <div class="mb-3 d-flex justify-content-center">
-                        <div class="col-8 col-md-5 col-sm-3 m-3 p-3">
-                            <button type="submit" class="boton">Enviar mensaje</button>
-                            <button type="reset" class="boton">Borrar formulario</button>
-                        </div>
-                    </div>
-                </form>
+
+    <section class="container-fluid">
+        <form class="row m-2 m-lg-5 p-2 p-lg-5">
+            <!--nombre completo--->
+            <div class="col-12 col-lg-6">
+                <label for="name-imput" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="campo-nombre" placeholder="Julia Moscaliuk" required>
             </div>
-        </section>
-    </main> -->
+            <!---telefono--->
+            <div class="col-12 col-lg-6">
+                <label for="phone-imput" class="form-label">Teléfono de contacto</label>
+                <input type="phone" class="form-control" id="campo-telefono" placeholder="099 090 909" required>
+            </div>
+            <!---email--->
+            <div class="col-12">
+                <label for="email-imput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="campo-mail" placeholder="juliamoscaliuk@juliamoscaliuk.com"
+                    required>
+            </div>
+            <!---tipo de propiedad--->
+            <div class="col-12 col-lg-6">
+                <label for="propiedad-select" class="form-label">Tipo de propiedad</label>
+                <select name="tipo-de-propiedad" id="campo-propiedad" class="form-control">
+                    <option value="Alquiler">Alquiler</option>
+                    <option value="Compra">Compra</option>
+                    <option value="Venta">Venta</option>
+                </select>
+            </div>
+            <!---codigo de propiedad--->
+            <div class="col-12 col-lg-6">
+                <label for="code-imput" class="form-label">Código de propiedad</label>
+                <input type="number" class="form-control" id="campo-codigo" placeholder="11223344">
+            </div>
+            <!---consulta--->
+            <div class="col-12">
+                <label for="consulta" class="form-label">Cuentanos como podemos ayudarte</label>
+                <textarea name="ingresa-consulta" id="campo-consulta" placeholder="Ingresa tu consulta aquí:" required
+                    class="form-control h-300px"></textarea>
+            </div>
+            <div class="d-flex col-12 my-3 py-3 justify-content-evenly">
+                <button type="submit" class="boton">Enviar consulta</button>
+                <button type="reset" class="boton">Borrar consulta</button>
+            </div>
+        </form>
+    </section>
+
 
 
     <!----- FOOTER ------->
