@@ -32,12 +32,10 @@
                         <a class="nav-link active" aria-current="page" href="listapropiedades.html">VENTAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="listapropiedades.html">ALQUILER</a>
+                        <a class="nav-link active" aria-current="page" href="listapropiedades.html">ALQUILER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="formulariodecontacto.html">CONTACTO</a>
+                        <a class="nav-link active" aria-current="page" href="formulariodecontacto.html">CONTACTO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="quienesomos.html">NOSOTROS</a>
@@ -47,6 +45,76 @@
         </div>
     </header>
 
+
+    <!-------FORMULARIO DE CONTACTO--------->
+
+    <div class="container">
+        <form class="row mt-5">
+
+            <!--nombre completo--->
+            <div class="col-6 ">
+                <label for="name-imput" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="campo-nombre" placeholder="Julia Moscaliuk" required>
+            </div>
+
+            <!-- <div class="container__contacto">
+                <form class="container__formulario row border border-4 rounded m-2 p-2">
+                    <div class="row mb-3 justify-content-center">
+                        <div class="col-8 col-md-5 col-sm-3">
+                            -->
+
+
+
+            
+<!---telefono- -->
+            <div class="col-6">
+                <label for="phone-imput" class="form-label">celular</label>
+                <input type="phone" class="form-control" id="campo-telefono"
+                    placeholder="099 090 909" required>
+            </div>
+
+
+            <!---email--->
+            <div class="col-6">
+                <label for="email-imput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="campo-mail" placeholder="juliamoscaliuk@juliamoscaliuk.com" required>
+            </div>
+            
+<!-- tipo de propiedad -->
+            <div class="col-6">
+                <label for="tipo-de-propiedad" class="form-label">Tipo de propiedad</label>
+                            <select name="tipo-de-propiedad" id="Tipo de propiedad" class="form-control">
+                                <option value="Alquiler">Alquiler</option>
+                                <option value="Compra">Compra</option>
+                                <option value="Venta">Venta</option>
+                            </select>
+
+            
+
+
+
+<!-- codigo de propiedad -->
+            <div class="col-6">
+                <label for="code-imput" class="form-label">Código de propiedad</label>
+                <input type="number" class="form-control" id="campo-codigo" placeholder="11223344">
+            </div>
+
+            
+            <!-- consulta -->
+            <div class="col-6">
+                <label for="text-imput" class="form-label">Ingresa tu consulta</label>
+                <input type="text" class="form-control" id="campo-consulta">
+            </div>
+
+
+
+
+            <!-- botones -->
+        </form>
+    </div>
+
+
+
     <!-- <main>
         <section>
                 <div class="text-center">
@@ -55,13 +123,7 @@
                         aclarar todas tus dudas</H2>
                 </div>
 
-            <div class="container__contacto">
-                <form class="container__formulario row border border-4 rounded m-2 p-2">
-                    <div class="row mb-3 justify-content-center">
-                        <div class="col-8 col-md-5 col-sm-3">
-                            <label for="name">Nombre Completo</label>
-                            <input type="text" class="form-control" name="nombre" placeholder="Julia Moscaliuk"
-                                id="campo-nombre" required>
+            
                         </div>
                     </div>
                     <div class="row mb-3 justify-content-center">
