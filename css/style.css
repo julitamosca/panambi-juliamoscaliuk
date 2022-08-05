@@ -124,3 +124,19 @@ a, svg {
 /*----FORM----*/
 /* ----LISTA DE PROPIEDADES---- */
 /* ----QUIENES SOMOS---- */
+aside {
+  display: inline-block;
+  border-color: #faf9f9;
+  border-style: double;
+  margin: 50px;
+  padding: 20px;
+  background-color: #c673bf;
+  overflow: hidden;
+  position: relative;
+  justify-content: space-between;
+  text-align: justify;
+  align-self: stretch; }
+  aside h3 {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold; }
