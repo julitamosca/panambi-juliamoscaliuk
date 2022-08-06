@@ -140,3 +140,21 @@ aside {
     color: aliceblue;
     text-align: center;
     font-weight: bold; }
+
+.conocenos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "imagene bodye mision-vision" "bodyl imagenl  mision-vision" "imagenf bodyf mision-vision"; }
+
+.imagene {
+  grid-area: imagene; }
+
+.bodye {
+  grid-area: bodye; }
+
+.bodyl {
+  grid-area: bodyl; }
+
+aside {
+  grid-area: mision-vision; }

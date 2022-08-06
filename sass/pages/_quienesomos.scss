@@ -1,32 +1,7 @@
 /* ----QUIENES SOMOS---- */
 
-// .conocenos {
-//     border-color: black;
-//     border-style: dotted;
-//     margin: 50px;
-//     padding: 10px;
-//     background-color: $color-section;
-//     overflow: hidden;
 
-//     .conocenos h2 {
-//         text-align: center;
-//         color: #1f082c;
-//     }
 
-//     &__imagenlu {
-//         display: flex;
-//         flex-flow: row wrap;
-//         justify-content: space-around;
-//         height: 20vh;
-//     }
-
-//     &__imagenflor {
-//         display: flex;
-//         flex-flow: row wrap;
-//         justify-content: space-around;
-//         height: 20vh;
-//     }
-// }
 
 aside {
     display: inline-block;
@@ -50,69 +25,83 @@ aside {
 }
 
 
-
 // /* ----GRIDS PARA QUIENES SOMOS---- */
 
-// .conocenos {
-//     display: grid;
-//     grid-template-columns: repeat(3, 22 vh);
-//     grid-template-rows: repeat(5, 20 vw);
+.conocenos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 
 
-//     grid-template-areas:
-//         "titulo titulo titulo"
-//         "lucia titulol  aside"
-//         "lucia textol aside"
-//         "florencia titulof aside"
-//         "florencia textof aside";
+    grid-template-areas:
+        "imagene bodye mision-vision"
+        "bodyl imagenl  mision-vision"
+        "imagenf bodyf mision-vision"
+    }
 
-//     grid-gap: 2rem
-// }
 
-// .conocenos-titulo {
-//     grid-column-start: 1;
-//     grid-column-end: 4;
-// }
+.imagene{
+    grid-area: imagene;
+}
+.bodye{
+    grid-area: bodye;
+}
+.bodyl{
+    grid-area: bodyl;
+}
 
-// .conocenos__imagenlu {
-//     grid-area: lucia;
-//     align-self: center;
+aside{
+    grid-area: mision-vision;
+}
 
-// }
 
-// .titulol {
-//     grid-area: titulol;
-// }
+        //     grid-gap: 2rem
+        // }
 
-// .textol {
-//     grid-area: textol;
-//     text-align: justify;
-// }
+        // .conocenos-titulo {
+        //     grid-column-start: 1;
+        //     grid-column-end: 4;
+        // }
 
-// .conocenos__imagenflor {
-//     grid-area: florencia;
-//     align-self: center;
-// }
+        // .conocenos__imagenlu {
+        //     grid-area: lucia;
+        //     align-self: center;
 
-// .titulof {
-//     grid-area: titulof;
-// }
+        // }
 
-// .textof {
-//     grid-area: textof;
-//     text-align: justify;
-// }
+        // .titulol {
+        //     grid-area: titulol;
+        // }
 
-// .mision-vision {
-//     grid-area: aside;
-// }
+        // .textol {
+        //     grid-area: textol;
+        //     text-align: justify;
+        // }
 
-// .mision-vision {
-//     display: grid;
-//     text-align: justify;
-// }
+        // .conocenos__imagenflor {
+        //     grid-area: florencia;
+        //     align-self: center;
+        // }
 
-// .mision-vision h3 {
-//     text-align: center;
-//     align-self: center;
-// }
+        // .titulof {
+        //     grid-area: titulof;
+        // }
+
+        // .textof {
+        //     grid-area: textof;
+        //     text-align: justify;
+        // }
+
+        // .mision-vision {
+        //     grid-area: aside;
+        // }
+
+        // .mision-vision {
+        //     display: grid;
+        //     text-align: justify;
+        // }
+
+        // .mision-vision h3 {
+        //     text-align: center;
+        //     align-self: center;
+        // }
