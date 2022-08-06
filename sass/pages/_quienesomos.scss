@@ -4,10 +4,10 @@
 
 
 aside {
-    display: inline-block;
+    // display: inline-block;
     border-color: rgb(250, 249, 249);
     border-style: double;
-    margin: 50px;
+    margin: auto;
     padding: 20px;
     background-color: $color5;
     overflow: hidden;
@@ -24,35 +24,44 @@ aside {
 
 }
 
+.inmopana{
+    color: $color0;
+    text-decoration: double;
+
+    & :hover{
+        transition: 1 1 ;
+    }
+}
+
 
 // /* ----GRIDS PARA QUIENES SOMOS---- */
 
-.conocenos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+// .conocenos {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-template-rows: repeat(3, 1fr);
 
 
-    grid-template-areas:
-        "imagene bodye mision-vision"
-        "bodyl imagenl  mision-vision"
-        "imagenf bodyf mision-vision"
-    }
+//     grid-template-areas:
+//         "imagene bodye mision-vision"
+//         "bodyl imagenl  mision-vision"
+//         "imagenf bodyf mision-vision"
+//     }
 
 
-.imagene{
-    grid-area: imagene;
-}
-.bodye{
-    grid-area: bodye;
-}
-.bodyl{
-    grid-area: bodyl;
-}
+// .imagene{
+//     grid-area: imagene;
+// }
+// .bodye{
+//     grid-area: bodye;
+// }
+// .bodyl{
+//     grid-area: bodyl;
+// }
 
-aside{
-    grid-area: mision-vision;
-}
+// aside{
+//     grid-area: mision-vision;
+// }
 
 
         //     grid-gap: 2rem
