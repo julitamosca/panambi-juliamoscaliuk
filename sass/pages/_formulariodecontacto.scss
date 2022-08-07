@@ -1,9 +1,12 @@
 /*----FORM----*/
-
+.mensaje{
+    background-color: $color3;
+}
 .contacto {
     display: flex;
     justify-content: center;
-    background-image: url("formcontacto.png");
+
+
 
     input::placeholder {
         color: #FF2D95;
@@ -16,4 +19,3 @@
     }
 
 }
-
