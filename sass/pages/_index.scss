@@ -1,7 +1,7 @@
 // CAROUSEL MONTEVIDEO
 
 .carousel-item {
-    height: 30rem;
+    height: 32rem;
     background: black;
     color: $color6;
     position: relative;
@@ -10,6 +10,10 @@
 .montevideo {
     position: relative;
     justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
     color: $color6 solid;
     padding-top: 100px;
 }
@@ -42,7 +46,7 @@
 }
 
 .titulod {
-    font-family: $tiografia-titulo;
+    font-family: $tipografia-titulo;
     margin: 0 0 20px;
     justify-content: center;
 
