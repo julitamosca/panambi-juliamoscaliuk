@@ -24,3 +24,34 @@ a {
 }
 
 // Revisar por que no me toma el hover
+
+// CAROUSEL MONTEVIDEO
+
+.carousel-item {
+    height: 25rem;
+    background: black;
+    color: $color6;
+    position: relative;
+}
+
+.montevideo {
+    position: relative;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: $color6 solid;
+    padding-top: 100px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
