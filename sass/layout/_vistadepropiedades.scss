@@ -51,12 +51,17 @@
             transition: .7s;
         }
     }
-
 }
 
 .destacadas__text {
     padding: 30px 0;
     text-align: center;
+}
 
 
+// EJEMPLO DE PROPIEDAD
+
+
+.propiedades__img{
+    object-fit: cover;
 }
