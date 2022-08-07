@@ -7,18 +7,19 @@ footer {
     padding: 5rem;
     text-align: center;
     font-size: medium;
+}
+
+a,
+svg {
+    font-size: larger;
+    color: $color5;
+
+
+    &:visited {
+        color: $color1;
     }
 
-    a, svg {
-        font-size: larger;
-        color: $color5;
-
-
-        &:visited {
-            color: $color1;
-        }
-
-        &:hover {
-            color: $color6;
-        }
+    &:hover {
+        color: $color6;
     }
+}

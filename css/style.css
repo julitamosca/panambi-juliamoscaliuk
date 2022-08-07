@@ -26,12 +26,18 @@ header {
   height: 10rem;
   padding: 5rem; }
 
-ul, li, a {
+ul,
+li,
+a {
   list-style: none;
   color: black; }
-  ul:visited, li:visited, a:visited {
+  ul:visited,
+  li:visited,
+  a:visited {
     color: #674064; }
-  ul:hover, li:hover, a:hover {
+  ul:hover,
+  li:hover,
+  a:hover {
     color: #ffffff; }
 
 /* ----FOOTER---- */
@@ -43,12 +49,15 @@ footer {
   text-align: center;
   font-size: medium; }
 
-a, svg {
+a,
+svg {
   font-size: larger;
   color: #c673bf; }
-  a:visited, svg:visited {
+  a:visited,
+  svg:visited {
     color: #674064; }
-  a:hover, svg:hover {
+  a:hover,
+  svg:hover {
     color: #ffffff; }
 
 /* ----VISTA DE LAS PROPIEDADES---- */
@@ -94,7 +103,7 @@ a, svg {
   text-align: center; }
 
 .carousel-item {
-  height: 32rem;
+  height: 25rem;
   background: black;
   color: #ffffff;
   position: relative; }
