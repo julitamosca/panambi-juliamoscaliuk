@@ -129,6 +129,8 @@ svg {
   text-align: center; }
 
 .propiedades__img {
+  width: 100%;
+  height: auto;
   object-fit: fill; }
 
 /*----FORM----*/
