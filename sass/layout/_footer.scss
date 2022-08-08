@@ -1,17 +1,25 @@
 /* ----FOOTER---- */
 
 footer {
-    font-size: medium;
-    color: $color-aside;
-    height: 8rem;
-    background: rgb(2, 0, 36);
     background: $color-footer;
-    text-align: center;
+    color: black;
+    height: 8rem;
     padding: 5rem;
-    font-family: $tipografia-footer;
+    text-align: center;
+    font-size: medium;
 }
 
-
-footer a svg{
+a,
+svg {
     font-size: larger;
+    color: $color5;
+
+
+    &:visited {
+        color: $color1;
+    }
+
+    &:hover {
+        color: $color6;
+    }
 }

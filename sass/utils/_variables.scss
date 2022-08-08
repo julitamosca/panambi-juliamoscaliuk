@@ -5,20 +5,22 @@ $color-footer: linear-gradient(to bottom, #ffffff 0%, #ffccff 100%);
 
 
 // PALETA DE COLORES
-$color-section: rgb(204, 155, 204);
-$color-aside: rgb(114, 23, 114);
+$color0: #721772;
 $color1: #674064;
 $color2: #e4aadf;
 $color3: #e9c9ec;
 $color4: #924e8f;
 $color5: #c673bf;
 $color6: #ffffff;
+$color7: #000000;
+$color8: #FF2D95;
 
 
-//TIPOGRAFÍAS
+
+
+//TIPOGRAFÍAS - revisar esto
 
 $tipografia-header: 'Courier New', Courier, monospace;
 $tipografia-footer: 'Courier New', Courier, monospace;
 $tipografia-general: 'Raleway', sans-serif;
-
-
+$tipografia-titulo: 'Josefin Sans', sans-serif;
