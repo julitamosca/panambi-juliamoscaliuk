@@ -129,7 +129,7 @@ svg {
   text-align: center; }
 
 .propiedades__img {
-  object-fit: cover; }
+  object-fit: fill; }
 
 /*----FORM----*/
 .mensaje {
