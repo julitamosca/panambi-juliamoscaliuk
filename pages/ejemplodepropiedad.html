@@ -81,14 +81,16 @@
     </section>
 
     <!-- EJEMPLO DE PROPIEDAD -->
-    <main class="container-fluid">
+    <main class="container-fluid p-5">
         <section class="propiedades p-4">
             <div class="row">
-                <div class="propiedades__video col-12 col-md-6 d-flex">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/km8YSiE8JJw"
+                <div class="propiedades__video container col-12 col-md-6 d-flex">
+                    <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/km8YSiE8JJw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
+                    </div>
                 </div>
 
                 <div class="col-12 col-md-6 d-flex align-items-center">
@@ -103,17 +105,19 @@
                 </div>
 
                 <div class="row">
-                    <div class="propiedades__img col-12 col-md-6 order-md-2 d-flex">
+                    <div class="col-12 col-md-6 order-md-2 d-flex">
                         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="../assets/imag/bano2.jpg" class="d-block w-100" alt="bano">
+                                    <div class="container">
+                                    <img src="../assets/imag/bano2.jpg" alt="bano" class="propiedades__img">
+                                </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../assets/imag/cuarto2.jpg" class="d-block w-100" alt="dormitorio">
+                                    <img src="../assets/imag/cuarto2.jpg" alt="dormitorio" class="propiedades__img">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../assets/imag/kitchen2.jpg" class="d-block w-100" alt="cocina">
+                                    <img src="../assets/imag/kitchen2.jpg" alt="cocina" class="propiedades__img">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -128,6 +132,7 @@
                             </button>
                         </div>
                     </div>
+                    
                     <div class="col-12 col-md-6 order-md-1 d-flex align-items-center">
                         <article class="propiedades__atrib justify-content-center">
                             <h3 class="text-center">
@@ -167,6 +172,7 @@
                 </div>
             </div>
         </section>
+        </main>
 
         <!------ FOOTER ------>
         <footer>
